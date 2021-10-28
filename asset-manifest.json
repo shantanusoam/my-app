@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/shantanusoam/my-app/static/css/main.9c1ad5d9.chunk.css",
+    "main.js": "/shantanusoam/my-app/static/js/main.03216176.chunk.js",
+    "main.js.map": "/shantanusoam/my-app/static/js/main.03216176.chunk.js.map",
+    "runtime-main.js": "/shantanusoam/my-app/static/js/runtime-main.126514c5.js",
+    "runtime-main.js.map": "/shantanusoam/my-app/static/js/runtime-main.126514c5.js.map",
+    "static/js/2.6300cf78.chunk.js": "/shantanusoam/my-app/static/js/2.6300cf78.chunk.js",
+    "static/js/2.6300cf78.chunk.js.map": "/shantanusoam/my-app/static/js/2.6300cf78.chunk.js.map",
+    "index.html": "/shantanusoam/my-app/index.html",
+    "static/css/main.9c1ad5d9.chunk.css.map": "/shantanusoam/my-app/static/css/main.9c1ad5d9.chunk.css.map",
+    "static/js/2.6300cf78.chunk.js.LICENSE.txt": "/shantanusoam/my-app/static/js/2.6300cf78.chunk.js.LICENSE.txt",
+    "static/media/AbouMain.98545600.png": "/shantanusoam/my-app/static/media/AbouMain.98545600.png",
+    "static/media/AboutTire1.d639a212.png": "/shantanusoam/my-app/static/media/AboutTire1.d639a212.png",
+    "static/media/AboutTire2.5eebd618.png": "/shantanusoam/my-app/static/media/AboutTire2.5eebd618.png",
+    "static/media/Bg.b9830aae.png": "/shantanusoam/my-app/static/media/Bg.b9830aae.png",
+    "static/media/ContactTire.2255f5aa.png": "/shantanusoam/my-app/static/media/ContactTire.2255f5aa.png",
+    "static/media/PES.48b3b78f.png": "/shantanusoam/my-app/static/media/PES.48b3b78f.png",
+    "static/media/ProductTop.aa0be19f.png": "/shantanusoam/my-app/static/media/ProductTop.aa0be19f.png",
+    "static/media/QuoteAtEnd.dff95f82.png": "/shantanusoam/my-app/static/media/QuoteAtEnd.dff95f82.png",
+    "static/media/WCUTire.32725651.png": "/shantanusoam/my-app/static/media/WCUTire.32725651.png",
+    "static/media/WWO1.fb8ae058.png": "/shantanusoam/my-app/static/media/WWO1.fb8ae058.png",
+    "static/media/WWO2.3b8878d4.png": "/shantanusoam/my-app/static/media/WWO2.3b8878d4.png",
+    "static/media/logo.6821750a.png": "/shantanusoam/my-app/static/media/logo.6821750a.png",
+    "static/media/mapBackground.913e5719.png": "/shantanusoam/my-app/static/media/mapBackground.913e5719.png",
+    "static/media/testimonialbg.c1b2ddab.png": "/shantanusoam/my-app/static/media/testimonialbg.c1b2ddab.png",
+    "static/media/trailer1.edc9cd31.png": "/shantanusoam/my-app/static/media/trailer1.edc9cd31.png",
+    "static/media/trailer2.c983e5a9.png": "/shantanusoam/my-app/static/media/trailer2.c983e5a9.png",
+    "static/media/trailer3.51eba6f7.png": "/shantanusoam/my-app/static/media/trailer3.51eba6f7.png",
+    "static/media/whitetruck.8dcb3f91.png": "/shantanusoam/my-app/static/media/whitetruck.8dcb3f91.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.126514c5.js",
+    "static/js/2.6300cf78.chunk.js",
+    "static/css/main.9c1ad5d9.chunk.css",
+    "static/js/main.03216176.chunk.js"
+  ]
+}
