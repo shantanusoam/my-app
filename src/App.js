@@ -1,24 +1,43 @@
-import logo from './logo.svg';
+import React,  {useState} from 'react';
 import './App.css';
+import Stickbar from './components/Stickbar';
+import { BrowserRouter as Router , Switch,Route} from 'react-router-dom';
+import Home from './pages';
+import FooterSection from './components/FooterSection';
+import Navbar from './components/Navbar';
+import Sidebar from './components/Sidebar';
+import About from './pages/about';
+import Contact from './pages/contact';
+import Products from './pages/Products';
+
+
 
 function App() {
+  const [isOpen, setIsOpen] = useState(false)
+  const toggle = () =>{
+    setIsOpen(!isOpen)
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+        <Sidebar isOpen={isOpen} toggle={toggle}></Sidebar>
+    <Navbar toggle={toggle}></Navbar>
+{/* <Stickbar/> */}
+<Switch>
+  <Route exact path="/" component={Home} />
+  <Route exact path="/Contact" component={Contact} />
+  <Route exact path="/About" component={About} />
+  <Route exact path="/Product" component={Products} />
+</Switch>
+   
+      {/* <Switch>
+        <Route path='/' exact component={Home} />
+        <Route path='/about' component={About} />
+        <Route path='/services' component={Services} />
+        <Route path='/contact-us' component={Contact} />
+        <Route path='/sign-up' component={SignUp} />
+      </Switch> */}
+         <FooterSection></FooterSection>
+    </Router>
   );
 }
 
