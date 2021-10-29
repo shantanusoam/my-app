@@ -10,6 +10,7 @@ flex-direction: row;
 align-items: center;
 padding: 50px;
 width: 100%;
+padding-top: 200px;
 justify-content: flex-end;
 height: 60vh;
 &:active{

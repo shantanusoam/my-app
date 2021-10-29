@@ -1,5 +1,6 @@
 import Styled from 'styled-components';
 import bgimage from '../../images/Bg.png';
+import {  Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 background: 
 background: transparent;
@@ -90,11 +91,11 @@ background: #232a34;
 export const HeroContent = Styled.div`
 padding: 0px 0px 0px 100px;
 z-index: 2;
-max-width: 1200px;
+
 position: absolute;
 width: 100%;
 
-
+flex-wrap: wrap;
 display: flex;
 justify-content: space-between;
 flex-direction: row;
@@ -102,7 +103,9 @@ flex-direction: row;
 align-items: center;
 margin-top: -200px;
 
-
+div{
+    width: 55%;
+}
 
 `
 export const HeroH1 = Styled.h1`
@@ -131,10 +134,10 @@ font-weight: 800;
 font-size: 120px;
 line-height: 89.69%;
 text-align: left;
-width: 70%;
+width: 35%;
 z-index: 2;
 color: #FFFFFF;
-max-width: 60rem;
+
 @media screen and (max-width: 768px) {
     font-size: 24px;
 }
@@ -269,3 +272,33 @@ max-width: 60rem;
     font-size: 22px;
 }
 `
+export const WWOCCButton = Styled(LinkR)`
+padding: 25px;
+display: block;
+  display: flex;
+    justify-content: center;
+  background: #93CC00;
+  padding: 10px 22px;
+  white-space: nowrap;
+  padding: 20px 92px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: none;
+  
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  /* Second Nav */
+  margin-left: 24px;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #fff;
+    color: #010606;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+}
+`;

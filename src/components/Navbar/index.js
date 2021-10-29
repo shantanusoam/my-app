@@ -1,6 +1,7 @@
 import React ,{useEffect,useState} from 'react';
 import {FaBars} from 'react-icons/fa';
 import logo from '../../images/logo.png'
+import logo1 from '../../images/vanguard.png'
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll,Link } from 'react-scroll';
 
@@ -33,14 +34,14 @@ const Navbar = ({toggle}) => {
   useEffect(()=>{
     window.addEventListener('scroll',changeNav)
   },[]);
-  const toggleHome =() => {
+  const   toggleHome =() => {
     scroll.scrollToTop();
   }
   return (
     <>
     <IconContext.Provider value={{ color: '#fff', size: '1em' }}>
       <Nav scrollNav={scrollNav}>
-        <NavbarContainer>
+        
         <NavLogo to='/' onClick={toggleHome} >
  
           <img src={logo} alt='logo' height="72px"/>
@@ -51,27 +52,27 @@ const Navbar = ({toggle}) => {
         <NavMenu>
           <NavItem>
            
-          <NavLinks >
-          <Link to='Home' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Home</Link>
+          <NavLinks  to='/' onClick={toggleHome}>
+          <Link to='/' >Home</Link>
           </NavLinks>
           </NavItem>
           
           <NavItem>
-            <NavLinks>
-            <Link to='About' 
-          smooth={true} duration={500} spy={true} exact={true} offset={-80}>Who We Are</Link>
+            <NavLinks to='/About' onClick={toggleHome}> 
+            <Link to='/About' 
+          >About</Link>
             </NavLinks>
             
             </NavItem>
           <NavItem>
             
-            <NavLinks >
-            <Link to='Products' smooth={true} duration={500} spy={true} exact={true} offset={-80}>What We Offer</Link>
+            <NavLinks  to='/Product' onClick={toggleHome}>
+            <Link to='/Product' >Product</Link>
           </NavLinks></NavItem>
           <NavItem>
             
-            <NavLinks >
-            <Link to='Advantages' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Why Choose Us</Link>
+            <NavLinks to='/Contact' onClick={toggleHome}>
+            <Link to='/Contact' >Contact</Link>
           </NavLinks></NavItem>
           {/* <NavItem>
             
@@ -91,12 +92,13 @@ const Navbar = ({toggle}) => {
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <NavBtnLink to='Contact Us'> <Link to='ContactUs' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact Us</Link></NavBtnLink>
+          <img src={logo1} alt='logo' height="72px"/>
+          <h3 className="text-left text-black font-bold text-1xl">Authorized Dealer</h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>
           <FaBars/>
         </MobileIcon> */}
-        </NavbarContainer>
+        
         
       </Nav>
       </IconContext.Provider>

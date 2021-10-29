@@ -25,6 +25,13 @@ justify-content: center;
 min-height: auto;
 height:auto;
 `
+export const ContainerCorsole = styled.div`
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+width: 60%;
+`
 export const WWOCCParagraph = styled.p`
 
 padding: 20px;

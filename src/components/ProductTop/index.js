@@ -1,11 +1,18 @@
 import React from 'react'
-import {AboutContainer,TextContaner ,WWOCCParagraph,WWOCCButton,CButton} from './PtoductTopElement'
+import {AboutContainer,TextContaner ,WWOCCParagraph,WWOCCButton,CButton,ContainerCorsole} from './PtoductTopElement'
+import EmblaCarousel from "./EmblaCarousel";
 import whitetruck from '../../images/ProductTop.png';
 import { animateScroll as scroll,Link } from 'react-scroll';
+const SLIDE_COUNT = 10;
+const slides = Array.from(Array(SLIDE_COUNT).keys());
+
 const ProductTop = ({isOpen,toggle}) => {
     return (
       <AboutContainer id="About">
-          <img src={whitetruck} alt="" />
+        <ContainerCorsole>
+        <EmblaCarousel slides={slides} />
+        </ContainerCorsole>
+          
         <TextContaner>
             <h3 className="text-left text-black font-bold text-3xl pb-8">Trailer numer #</h3>
             <p className="text-left text-gray-800 pb-8">Super fast, easy control trailer </p>
