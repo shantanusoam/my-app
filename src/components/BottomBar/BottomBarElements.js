@@ -15,7 +15,7 @@ width : 100%;
   align-items: center;
   font-size: 1rem;
 
-
+margin-bottom:0;
   top:0;
   z-index: 0;
   // padding: 0.5rem calc((100vw - 1000px) / 2);
