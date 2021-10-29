@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.9c1ad5d9.chunk.css",
-    "main.js": "/my-app/static/js/main.03216176.chunk.js",
-    "main.js.map": "/my-app/static/js/main.03216176.chunk.js.map",
-    "runtime-main.js": "/my-app/static/js/runtime-main.d77190df.js",
-    "runtime-main.js.map": "/my-app/static/js/runtime-main.d77190df.js.map",
-    "static/js/2.a0616f47.chunk.js": "/my-app/static/js/2.a0616f47.chunk.js",
-    "static/js/2.a0616f47.chunk.js.map": "/my-app/static/js/2.a0616f47.chunk.js.map",
+    "main.css": "/my-app/static/css/main.339395a6.chunk.css",
+    "main.js": "/my-app/static/js/main.df25ebc2.chunk.js",
+    "main.js.map": "/my-app/static/js/main.df25ebc2.chunk.js.map",
+    "runtime-main.js": "/my-app/static/js/runtime-main.1dcebb58.js",
+    "runtime-main.js.map": "/my-app/static/js/runtime-main.1dcebb58.js.map",
+    "static/js/2.93215b42.chunk.js": "/my-app/static/js/2.93215b42.chunk.js",
+    "static/js/2.93215b42.chunk.js.map": "/my-app/static/js/2.93215b42.chunk.js.map",
     "index.html": "/my-app/index.html",
-    "static/css/main.9c1ad5d9.chunk.css.map": "/my-app/static/css/main.9c1ad5d9.chunk.css.map",
-    "static/js/2.a0616f47.chunk.js.LICENSE.txt": "/my-app/static/js/2.a0616f47.chunk.js.LICENSE.txt",
+    "static/css/main.339395a6.chunk.css.map": "/my-app/static/css/main.339395a6.chunk.css.map",
+    "static/js/2.93215b42.chunk.js.LICENSE.txt": "/my-app/static/js/2.93215b42.chunk.js.LICENSE.txt",
     "static/media/AbouMain.98545600.png": "/my-app/static/media/AbouMain.98545600.png",
     "static/media/AboutTire1.d639a212.png": "/my-app/static/media/AboutTire1.d639a212.png",
     "static/media/AboutTire2.5eebd618.png": "/my-app/static/media/AboutTire2.5eebd618.png",
@@ -23,6 +23,9 @@
     "static/media/WWO2.3b8878d4.png": "/my-app/static/media/WWO2.3b8878d4.png",
     "static/media/logo.6821750a.png": "/my-app/static/media/logo.6821750a.png",
     "static/media/mapBackground.913e5719.png": "/my-app/static/media/mapBackground.913e5719.png",
+    "static/media/media-1.b9830aae.jpeg": "/my-app/static/media/media-1.b9830aae.jpeg",
+    "static/media/media-2.b9830aae.jpeg": "/my-app/static/media/media-2.b9830aae.jpeg",
+    "static/media/media-3.b9830aae.jpeg": "/my-app/static/media/media-3.b9830aae.jpeg",
     "static/media/testimonialbg.c1b2ddab.png": "/my-app/static/media/testimonialbg.c1b2ddab.png",
     "static/media/trailer1.edc9cd31.png": "/my-app/static/media/trailer1.edc9cd31.png",
     "static/media/trailer2.c983e5a9.png": "/my-app/static/media/trailer2.c983e5a9.png",
@@ -30,9 +33,9 @@
     "static/media/whitetruck.8dcb3f91.png": "/my-app/static/media/whitetruck.8dcb3f91.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.d77190df.js",
-    "static/js/2.a0616f47.chunk.js",
-    "static/css/main.9c1ad5d9.chunk.css",
-    "static/js/main.03216176.chunk.js"
+    "static/js/runtime-main.1dcebb58.js",
+    "static/js/2.93215b42.chunk.js",
+    "static/css/main.339395a6.chunk.css",
+    "static/js/main.df25ebc2.chunk.js"
   ]
 }
