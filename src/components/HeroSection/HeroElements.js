@@ -14,7 +14,7 @@ position: relative;
 z-index: 1;
 `;
 export const HeroBg = Styled.div`
-background: transparent url(${bgimage}) no-repeat center center;
+/* background: transparent url(${bgimage}) no-repeat center center; */
 position: absolute;
 z-index: 2;
 top: 0;
@@ -22,7 +22,7 @@ left: 0;
 bottom: 0;
 right: 0;
 width: 100%;
-height: 100%;
+height: 100vh;
 
 overflow: hidden;
 

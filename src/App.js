@@ -9,6 +9,7 @@ import Sidebar from './components/Sidebar';
 import About from './pages/about';
 import Contact from './pages/contact';
 import Products from './pages/Products';
+import BottomBar from './components/BottomBar';
 
 
 
@@ -37,6 +38,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch> */}
          <FooterSection></FooterSection>
+         <BottomBar></BottomBar>
     </Router>
   );
 }
