@@ -11,7 +11,10 @@ align-items: center;
 justify-content: flex-end;
 width: 100%;
 height: 65vh;
-
+@media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+    display: none;
+  }
 &:active{
     
 }

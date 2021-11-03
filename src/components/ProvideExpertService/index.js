@@ -16,11 +16,11 @@ const ProvideExpertService = ({isOpen,toggle}) => {
     </ContentHeadingContainer>
     <ContentStepsContainer>
         <StepNoContainer>
-            <NoContainer>1</NoContainer>
+            <NoContainer>01</NoContainer>
             <StarightLine></StarightLine>
-            <NoContainer>2</NoContainer>
+            <NoContainer>02</NoContainer>
             <StarightLine></StarightLine>
-            <NoContainer>3</NoContainer>
+            <NoContainer>03</NoContainer>
         </StepNoContainer>
         <StepNoContentContainer>
             <SteapHeadingContainer><StepHeading>Select your product</StepHeading><StepSubheading>Through True Rich Attended does no end it his mother since real had half every </StepSubheading></SteapHeadingContainer>

@@ -1,14 +1,15 @@
 import React from 'react'
-import {AboutContainer,AboutContainerImageContent2,SpaceTruck,AboutContainerContent,AboutContainerTextContent,AboutContainerHeading,AboutContainerSubHeading,AboutContainerPara,AboutContainerButton,AboutContainerImageContent,AboutContainerImage } from './DAboutSectionElement'
+import {AboutContainer,SpaceContainer,AboutContainerImageContent2,SpaceTruck,AboutContainerContent,AboutContainerTextContent,AboutContainerHeading,AboutContainerSubHeading,AboutContainerPara,AboutContainerButton,AboutContainerImageContent,AboutContainerImage } from './DAboutSectionElement'
 import whitetruck from '../../images/whitetruck.png';
 const DAboutSection = ({isOpen,toggle}) => {
     return (
       <AboutContainer id="About">
         <AboutContainerImageContent>
-        <img src={whitetruck} alt=""   width="500px"/>
+        <img src={whitetruck} alt=""/>
              </AboutContainerImageContent>
         
           <AboutContainerContent>
+          <SpaceContainer>                 </SpaceContainer>
           
           
             <AboutContainerTextContent>
@@ -17,7 +18,7 @@ const DAboutSection = ({isOpen,toggle}) => {
               <AboutContainerPara>Through True Rich Attended does no end it his mother since real had half every him case in packages enquire we up ecstatic unsatiable saw Through True Rich Attended does  </AboutContainerPara>
               <AboutContainerButton>See more</AboutContainerButton>
             </AboutContainerTextContent>
-             
+            
             
            
           </AboutContainerContent>

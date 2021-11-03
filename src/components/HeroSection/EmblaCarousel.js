@@ -8,7 +8,7 @@ import "./embla.css";
 const AUTOPLAY_INTERVAL = 4000;
 
 const EmblaCarousel = ({ slides }) => {
-  const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false ,    loop: true});
+  const [viewportRef, embla] = useEmblaCarousel({ skipSnaps: false });
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
 
@@ -53,14 +53,17 @@ const EmblaCarousel = ({ slides }) => {
   }, [play]);
 
   return (
-    <div className="embla">
-      <div className="embla__viewport" ref={viewportRef}>
-        <div className="embla__container">
+    <div className="embla  sm: '8px',
+    md: '16px',
+    lg: '24px',
+    xl: '48px',">
+      <div className="embla__viewport h-full" ref={viewportRef}>
+        <div className="embla__container h-full">
           {slides.map((index) => (
-            <div className="embla__slide" key={index}>
-              <div className="embla__slide__inner">
+            <div className="embla__slide h-full " key={index}>
+              <div className="embla__slide__inner  h-full">
                 <img
-                  className="embla__slide__img"
+                  className="embla__slide__img h-full "
                   src={mediaByIndex(index)}
                   alt="A cool cat."
                 />

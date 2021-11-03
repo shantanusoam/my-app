@@ -3,6 +3,7 @@ import {  Link as LinkR } from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
 import bgimage from '../../images/QuoteAtEnd.png';
+import Mbgimage from '../../images/mobilequote.png';
 export const WWOCArd = styled.div`
 background: transparent url(${bgimage}) no-repeat center center;
 display:flex;
@@ -13,7 +14,8 @@ justify-content : center;
 width: 100%;
 height: 50vh;
 @media screen and (max-width: 768px) {
-  height: 30vh;
+  height: 80vh;
+  background: #1e1b1b url(${Mbgimage}) no-repeat center center;
 }
 `
 
@@ -40,10 +42,13 @@ width: 100%;
 color: #ffff;
 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 39px;
+    padding: 0px 0px 120px 0px;
 }
 @media screen and (max-width: 480px) {
-    font-size: 15px;
+  font-size: 30px;
+   padding: 0px 0px 120px 0px;
+
 }
 `
 export const CButton = styled.div`
@@ -69,10 +74,10 @@ color: #fff;
 
 max-width: 60rem;
 @media screen and (max-width: 768px) {
-    font-size: 14px;
+  display: none;
 }
 @media screen and (max-width: 480px) {
-    font-size: 10px;
+    display: none;
 }
 
 `
@@ -102,6 +107,6 @@ display: block;
     color: #010606;
   }
   @media screen and (max-width: 768px) {
-    display: none;
+    
 }
 `;

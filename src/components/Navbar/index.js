@@ -44,7 +44,7 @@ const Navbar = ({toggle}) => {
         
         <NavLogo to='/' onClick={toggleHome} >
  
-          <img src={logo} alt='logo' height="72px"/>
+          <img src={logo} alt='logo' />
         </NavLogo>
         
         
@@ -53,26 +53,26 @@ const Navbar = ({toggle}) => {
           <NavItem>
            
           <NavLinks  to='/' onClick={toggleHome}>
-          <Link to='/' >Home</Link>
+          <a to='/' >Home</a>
           </NavLinks>
           </NavItem>
           
           <NavItem>
             <NavLinks to='/About' onClick={toggleHome}> 
-            <Link to='/About' 
-          >About</Link>
+            <a to='/About' 
+          >About</a>
             </NavLinks>
             
             </NavItem>
           <NavItem>
             
             <NavLinks  to='/Product' onClick={toggleHome}>
-            <Link to='/Product' >Product</Link>
+            <a to='/Product' >Product</a>
           </NavLinks></NavItem>
           <NavItem>
             
             <NavLinks to='/Contact' onClick={toggleHome}>
-            <Link to='/Contact' >Contact</Link>
+            <a to='/Contact' >Contact</a>
           </NavLinks></NavItem>
           {/* <NavItem>
             
@@ -82,7 +82,7 @@ const Navbar = ({toggle}) => {
           </NavItem> */}
           
           <MobileIcon onClick={toggle}>
-          <FaBars/>
+          <FaBars color="#111"/>
         </MobileIcon>
           
           

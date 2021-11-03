@@ -150,6 +150,7 @@ export const WWOCCButton = styled(LinkR)`
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
+    font-family: poppins;
   color: #fff;
   outline: none;
   border: none;

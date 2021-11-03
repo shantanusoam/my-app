@@ -10,6 +10,7 @@ import About from './pages/about';
 import Contact from './pages/contact';
 import Products from './pages/Products';
 import BottomBar from './components/BottomBar';
+import PartnerCompnay from './components/PartnerCompnay';
 
 
 
@@ -24,10 +25,10 @@ function App() {
     <Navbar toggle={toggle}></Navbar>
 {/* <Stickbar/> */}
 <Switch>
-  <Route exact path="/" component={Home} />
-  <Route exact path="/Contact" component={Contact} />
-  <Route exact path="/About" component={About} />
-  <Route exact path="/Product" component={Products} />
+  <Route exact path="/" component={Home} title="BigRig"/>
+  <Route exact path="/Contact" component={Contact} title="BigContact"/>
+  <Route exact path="/About" component={About}  title="BigAbout"/>
+  <Route exact path="/Product" component={Products}  title="BigRigProduct"/>
 </Switch>
    
       {/* <Switch>
@@ -37,6 +38,8 @@ function App() {
         <Route path='/contact-us' component={Contact} />
         <Route path='/sign-up' component={SignUp} />
       </Switch> */}
+      {/* <PartnerCompnay></PartnerCompnay> */}
+      <PartnerCompnay></PartnerCompnay>
          <FooterSection></FooterSection>
          <BottomBar></BottomBar>
     </Router>

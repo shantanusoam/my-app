@@ -2,36 +2,40 @@ import Styled from 'styled-components';
 import bgimage from '../../images/Bg.png';
 import {  Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
-background: 
-background: transparent;
-display: flex;
-justify-content: space-between;
-align-items: center;
-padding: 0px 30px;
-height: 100vh;
-width: 100%;
-position: relative;
-z-index: 1;
-`;
-export const HeroBg = Styled.div`
-/* background: transparent url(${bgimage}) no-repeat center center; */
-position: absolute;
-z-index: 2;
-top: 0;
-left: 0;
-bottom: 0;
-right: 0;
-width: 100%;
-height: 100vh;
-
+background: transparent url(${bgimage}) no-repeat center center;
 overflow: hidden;
 
-`
+display: flex;  
+justify-content: space-between;
+align-items: center;
+margin: 0;
+padding: 0;
+
+width: 100vw;
+position: relative;
+height: 100vh;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: top center;
+z-index: 0;
+`;
+// export const HeroBg = Styled.div`
+
+// position: absolute;
+// z-index: 2;
+// top: 0;
+// left: 0;
+// bottom: 0;
+// right: 0;
+// overflow: hidden;
+// width: 100vw;
+// height: 100vh;    
+// `
 export const WWOCardContainer = Styled.div`
 display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: center;
+flex-wrap: wrap;
+align-items: flex-start;
+justify-content: center;
 padding-bottom: 90px;
 `
 
@@ -86,7 +90,7 @@ height: 100%;
 
 object-fit: cover;
 
-background: #232a34;
+
 `
 export const HeroContent = Styled.div`
 padding: 0px 0px 0px 100px;
@@ -105,8 +109,53 @@ margin-top: -200px;
 
 div{
     width: 55%;
+    display: block;
+    align-items: right;
+    margin-right: -300px;
+    @media screen and (max-width: 768px) {
+    display: none;
+    
+    }
+    @media screen and (min-device-width: 1024px) {
+    display: block;
+    align-items: right;
+    
+    }
+    @media screen and (max-width: 480px) {
+    display: none;
+    
+    }
+ 
+    
 }
 
+    
+
+
+@media screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+    }
+@media screen and (max-width: 480px) {
+    padding: 200px 0px 0px 0px;
+    
+    flex-direction: column;
+    font-size: 32px;
+    align-items: center;
+    justify-content: center;
+}
+`
+export const PCENTER = Styled.p`
+display: none;
+    @media screen and (max-width: 768px) {
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    }
 `
 export const HeroH1 = Styled.h1`
 
@@ -128,21 +177,31 @@ color: #ED1C24;
 `
 export const HeroP = Styled.p`
 margin-top: 24px;
-font-family: Roboto;
+font-family: poppins;
 font-style: normal;
 font-weight: 800;
 font-size: 120px;
 line-height: 89.69%;
 text-align: left;
-width: 35%;
+width: 36%;
 z-index: 2;
 color: #FFFFFF;
 
 @media screen and (max-width: 768px) {
-    font-size: 24px;
+    font-size: 54px;
+    width: 55%;
+    text-align: center; 
 }
-@media screen and (max-width: 480px) {
-    font-size: 22px;
+/* @media screen and (max-width: 1024px) {
+    font-size: 40px;
+    width: 36%;
+    text-align: center; 
+} */
+@media screen and (max-width: 375px) {
+    font-size: 42px;
+    width: 50%;
+  
+    text-align: center; 
 }
 `
 export const CardHeading = Styled.button`
@@ -225,10 +284,10 @@ font-size: 3rem ;
 cursor: pointer;
 color: #94CD01;
 &.active{
-    color: #ed1d25;
+    color: #2F7DBD;
   }
 &:hover{
-    color: #ed1d25;
+    color: #2F7DBD;
 }
 `;
 export const HomeContactContent = Styled.div`
@@ -272,6 +331,36 @@ max-width: 60rem;
     font-size: 22px;
 }
 `
+export const WWOCCButtonM = Styled(LinkR)`
+display: none;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #93CC00;
+    color: #010606;
+  }
+  @media screen and (max-width: 768px) {
+   padding: 25px;
+display: block;
+  display: flex;
+    justify-content: center;
+  background: #93CC00;
+  padding: 10px 22px;
+  white-space: nowrap;
+  padding: 20px 92px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: none;
+  
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  /* Second Nav */
+  margin-top: 44px;
+}
+`
 export const WWOCCButton = Styled(LinkR)`
 padding: 25px;
 display: block;
@@ -295,7 +384,7 @@ display: block;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
+    background: #93CC00;
     color: #010606;
   }
   @media screen and (max-width: 768px) {

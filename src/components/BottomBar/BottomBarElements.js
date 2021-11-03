@@ -4,9 +4,9 @@ import {Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
 
 export const Nav = styled.nav`
-background-color: ${({scrollNav})=>(scrollNav?'#1E1B1B':'transparent')}; 
+background-color: #1e1b1b ;
   
-  height: 80px;
+  height: 100%;
 //  margin-top:-80px
 width : 100%;
 
@@ -21,7 +21,7 @@ margin-bottom:0;
   // padding: 0.5rem calc((100vw - 1000px) / 2);
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
-    margin-top: 0px;
+    display: none;
   }
 
   /* Third Nav */
@@ -65,7 +65,7 @@ export const NavLink = styled(LinkR)`
   cursor: pointer;
 
   &:hover{
-    color: #900;
+    color: #93CC00;
   };
   &.active {
     color: #15cdfc;
@@ -87,7 +87,7 @@ font-size: 1.8rem ;
 cursor: pointer;
 color: #fff;
 &.active{
-    color: #1E1B1B;
+    color: #fff;
   }
 }
 `;
@@ -107,7 +107,7 @@ display: block;
     height: 80px;
     &:hover{
       
-    color: #900;
+    color: #93CC00;
   };
   @media screen and (max-width: 768px) {
     display: none;
@@ -119,14 +119,15 @@ color: #fff;
 display: flex;
 align-items: center;
 text-decoration: none;
-padding: 0 1rem;
+padding: 0 6rem;
 height: 100%;
+font-size: 1.5rem;
 cursor: pointer;
 &.active{
-    color: #900;
+    color: #93CC00;
   }
 &:hover{
-    color: #900;
+    color: #93CC00;
   };
 &.active {
  border-bottom: 3px solid #15cdfc;
@@ -135,7 +136,7 @@ cursor: pointer;
 `
 export const Bars = styled(FaBars)`
   display: none;
-  color: #fff;
+  color: #000;
 
   @media screen and (max-width: 768px) {
     display: block;
@@ -188,7 +189,7 @@ export const NavBtnLink = styled(LinkR)`
   white-space: nowrap;
   padding: 10px 22px;
   font-size: 16px;
-  color: #fff;
+  color: #000;
   outline: none;
   border: none;
   
@@ -201,7 +202,7 @@ export const NavBtnLink = styled(LinkR)`
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #fff;
-    color: #1E1B1B;
+    background: #000;
+    color: #000;
   }
 `;

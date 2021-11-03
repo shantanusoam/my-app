@@ -9,10 +9,10 @@ const TrailerList = ({isOpen,toggle}) => {
     return (
       <AboutContainer id="About">
          
-         <h3 className="text-center text-black font-bold text-3xl pb-8">Trailer</h3>
+         <h3 className="text-center text-black font-bold text-3xl pb-8 md:pb-3">Trailer</h3>
          <CardListRow>
-         <div className="px-14 py-10 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
-         <div className="bg-white rounded-xl  m-9 hover:shadow-2xl">
+         <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
+    <div className="bg-white rounded-xl  m-9 hover:shadow-2xl">
                  <img src={tr1} alt="boy with camera" className="rounded-t-xl h-80 w-full object-cover"/>
    
             <div className="p-8">

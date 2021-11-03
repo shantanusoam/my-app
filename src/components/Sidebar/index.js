@@ -9,22 +9,20 @@ const Sidebar = ({isOpen,toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink   >
-                    <Link onClick={toggle} to='About' 
-          smooth={true} duration={500} spy={true} exact={true} offset={-80}>About</Link>
+                    <SidebarLink  to='/'  >
+                    <a onClick={toggle} to='/' 
+          smooth={true} duration={500} spy={true} exact={true} offset={-80}>Home</a>
                     </SidebarLink>
-                    <SidebarLink  >
-                    <Link  onClick={toggle} to='/Home' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Products</Link>
+                    <SidebarLink to='/About' >
+                    <a  onClick={toggle} to='/About' smooth={true} duration={500} spy={true} exact={true} offset={-80}>About</a>
                     </SidebarLink>
-                    <SidebarLink  >
-                    <Link  onClick={toggle} to='/Product' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Advantages</Link>
+                    <SidebarLink to='/Product' >
+                    <a  onClick={toggle} to='/Product' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Product</a>
                     </SidebarLink>
-                    <SidebarLink  >
-                    <Link  onClick={toggle} to='/Contact' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact Us</Link>
-                    </SidebarLink>
+                    
                 </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/Contact'><Link to='/Contact' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact Us</Link></SidebarRoute>
+                <SidebarRoute to='/Contact'><Link to='/Contact' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact</Link></SidebarRoute>
             </SideBtnWrap>
             </SidebarWrapper>
         </SlidebarContainer>

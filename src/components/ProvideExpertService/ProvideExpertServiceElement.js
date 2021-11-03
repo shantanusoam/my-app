@@ -11,20 +11,33 @@ justify-content: center;
 width: 100%;
 height: 90vh;
 @media screen and (max-width: 768px) {
-  height: 50vh;
-}
+  height: 100vh;
+  flex-direction: column;
+}   
 `
 export const ImageContainer  = styled.div`
-
+@media screen and (max-width: 768px) {
+  display:none;
+  
+}
 `
 export const ContentContainer  = styled.div`
 display:flex;
 flex-direction: column;
 justify-content: start;
 align-items:flex-start;
+@media screen and (max-width: 768px) {
+  width: 100%;
+  
+  
+}
 `
 export const ContentHeadingContainer  = styled.div`
 padding: 0px 50px 30px 0px;
+@media screen and (max-width: 768px) {
+  padding: 20px;
+  margin: 0;
+}
 `
 export const Heading  = styled.div`
 padding: 5px;
@@ -39,10 +52,12 @@ width: 35rem;
 color: #010101;
 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 30px;
+    width: 100%;
+    padding-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
-    font-size: 15px;
+    
 }
 `
 export const SubHeading  = styled.div`
@@ -62,12 +77,14 @@ color: #232536;
 }
 @media screen and (max-width: 480px) {
     font-size: 15px;
+    width: 100%;
 }
 `
 export const ContentStepsContainer  = styled.div`
 display:flex;
 flex-direction: row;
 justify-content: start;
+
 `
 export const StepNoContainer  = styled.div`
 display:flex;
@@ -86,6 +103,14 @@ height: 45PX;
 
 background: #93CC00;
 z-index: 5;
+@media screen and (max-width: 768px) {
+    margin: 5px;
+    padding-top: 10px;
+    width:  65PX;
+height: 65PX;
+font-size: 2rem;
+color: #fff;
+}
 `
 export const StarightLine  = styled.div`
  border:1px dashed #93CC00;
@@ -96,11 +121,19 @@ export const StarightLine  = styled.div`
 
 
 z-index: 5;
+@media screen and (max-width: 768px) {
+   margin: 0;
+   padding: 0;
+}
 `
 export const StepNoContentContainer  = styled.div`
 display:flex;
 flex-direction: column;
 justify-content: start;
+@media screen and (max-width: 768px) {
+   margin-top: 30px;
+   padding: 0;
+}
 
 `
 export const SteapHeadingContainer  = styled.div`
@@ -108,6 +141,13 @@ display:flex;
 margin: 25px;
 flex-direction: column;
 justify-content: start;
+@media screen and (max-width: 768px) {
+    margin: 5px;
+}
+@media screen and (max-width: 480px) {
+    margin: 5px;
+}
+
 `
 export const StepHeading  = styled.div`
 padding: 5px;
@@ -122,10 +162,13 @@ width: 35rem;
 color: #010101;
 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 70px;
+   
+    color: #1E1B1B;
 }
 @media screen and (max-width: 480px) {
-    font-size: 15px;
+    font-size: 27px;
+    color: #1E1B1B;
 }
 `
 export const StepSubheading  = styled.div`
@@ -138,12 +181,15 @@ font-size: 12px;
 
 
 width: 35rem;
-color: #232536;
+color: #938D8D;
 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 40px;
+    width: 50%;
+    color: #938D8D;
 }
 @media screen and (max-width: 480px) {
-    font-size: 15px;
+    font-size: 20px;
+    color: #938D8D;
 }
 `

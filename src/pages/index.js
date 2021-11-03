@@ -4,24 +4,26 @@ import DAboutSection from '../components/DAboutSection';
 import HeroSection from '../components/HeroSection';
 import Navbar from '../components/Navbar';
 import QuoteAtEnd from '../components/QuoteAtEnd';
-import Sidebar from '../components/Sidebar';
-import TestimonialSection from '../components/TestimonialSection';
-import UAboutSection from '../components/UAboutSection';
-import WCUSection from '../components/WCUSection';
-import WWOSection from '../components/WWOSection';
-import FooterSection from '../components/FooterSection';
+
 import ProvideExpertService from '../components/ProvideExpertService';
 import MapSection from '../components/MapSection';
 import TrailerList from '../components/TrailersList';
 
-const Home = () => {
+const SLIDE_COUNT = 5;
+const slides = Array.from(Array(SLIDE_COUNT).keys());
+
+const Lol = () => {
   const [isOpen, setIsOpen] = useState(false)
   const toggle = () =>{
     setIsOpen(!isOpen)
-  }
+  };
+
   return (
+    
+    
     <>
-  
+     {/* <EmblaCarousel slides={slides} /> */}
+  {/* <Herosection></Herosection> */}
     <HeroSection></HeroSection>
     {/* <UAboutSection></UAboutSection> */}
     <DAboutSection></DAboutSection>
@@ -31,6 +33,7 @@ const Home = () => {
     {/* <WCUSection></WCUSection> */}
     <QuoteAtEnd></QuoteAtEnd>
     <TrailerList></TrailerList>
+    
     <ContactSection></ContactSection>
     <MapSection></MapSection>
     
@@ -41,4 +44,18 @@ const Home = () => {
   )
 };
 
+class Home extends React.Component {
+  
+  componentDidMount() {
+    document.title = "BigRig"
+  }
+  
+  render() {
+    const PageComponent = this.props.component
+
+    return (
+      <Lol />
+    )
+  }
+}
 export default Home;

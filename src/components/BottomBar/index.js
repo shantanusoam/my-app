@@ -23,17 +23,17 @@ import {
 
 const BottomBar = ({toggle}) => {
   const [scrollNav, setScrollNav] = useState(false);
-  const changeNav = ()=> {
-    if(window.scrollY >= 100) {
-      setScrollNav(true)
-    }
-    else{
-      setScrollNav(false)
-    }
-  }
-  useEffect(()=>{
-    window.addEventListener('scroll',changeNav)
-  },[]);
+  // const changeNav = ()=> {
+  //   if(window.scrollY >= 100) {
+  //     setScrollNav(true)
+  //   }
+  //   else{
+  //     setScrollNav(false)
+  //   }
+  // }
+  // useEffect(()=>{
+  //   window.addEventListener('scroll',changeNav)
+  // },[]);
   const   toggleHome =() => {
     scroll.scrollToTop();
   }
@@ -44,7 +44,7 @@ const BottomBar = ({toggle}) => {
         
         <NavLogo to='/' onClick={toggleHome} >
  
-          <img src={logo} alt='logo' height="72px"/>
+        <h3 className="text-left text-gray-200 font-bold text-6xl">BIG-RIG</h3>
         </NavLogo>
         
         
@@ -82,7 +82,7 @@ const BottomBar = ({toggle}) => {
           </NavItem> */}
           
           <MobileIcon onClick={toggle}>
-          <FaBars/>
+          {/* <FaBars/> */}
         </MobileIcon>
           
           
@@ -92,8 +92,8 @@ const BottomBar = ({toggle}) => {
           {/* <NavBtnLink to='/sign-in'>Sign In</NavBtnLink> */}
         </NavMenu>
         <NavBtn>
-          <img src={logo1} alt='logo' height="72px"/>
-          <h3 className="text-left text-black font-bold text-1xl">Authorized Dealer</h3>
+       
+          <h3 className="text-left text-gray-200 font-bold text-1xl">@ Copyright Finsweet 2021</h3>
         </NavBtn>
         {/* <MobileIcon onClick={toggle}>
           <FaBars/>

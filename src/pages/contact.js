@@ -5,7 +5,7 @@ import MapSection from '../components/MapSection';
 
 
 
-const Contact = () => {
+const Contac = () => {
   const [isOpen, setIsOpen] = useState(false)
   const toggle = () =>{
     setIsOpen(!isOpen)
@@ -19,5 +19,19 @@ const Contact = () => {
     
   )
 };
+class Contact extends React.Component {
+  
+  componentDidMount() {
+    document.title = "BigRig Contact"
+  }
+  
+  render() {
+    const PageComponent = this.props.component
+
+    return (
+      <Contac />
+    )
+  }
+}
 
 export default Contact;

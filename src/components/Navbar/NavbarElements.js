@@ -48,6 +48,15 @@ align-items: flex-start;
 margin-left: 2px;
 font-weight: bold;
 text-decoration: none;
+@media screen and (max-width: 480px) {
+  padding: 5px;
+}
+img{  
+  height:"92px";
+  @media screen and (max-width: 480px) {
+    height:"42px";
+}
+}
 &.active{
     color: #ffff;
   }
@@ -76,6 +85,7 @@ export const NavLink = styled(LinkR)`
 `;
 export const MobileIcon = styled.div`
 display: none;
+color: #000;
 @media screen and (max-width: 768px) { 
    display : block; 
 
@@ -85,9 +95,10 @@ top: 0;
 transform: translate(-100%, 60%);
 font-size: 1.8rem ; 
 cursor: pointer;
+/* background-color: #fff; */
 color: #000;
 &.active{
-    color: #fff;
+    color: #000;
   }
 }
 `;
@@ -123,10 +134,10 @@ padding: 0 1rem;
 height: 100%;
 cursor: pointer;
 &.active{
-    color: #900;
+    color: #93CC00;
   }
 &:hover{
-    color: #900;
+    color: #93CC00;
   };
 &.active {
  border-bottom: 3px solid #15cdfc;
@@ -142,11 +153,11 @@ export const Bars = styled(FaBars)`
     position: absolute;
     top: 0;
     right: 0;
-    transform: translate(-100%, 75%);
-    font-size: 1.8rem;
+    transform: translate(-100%, 85%);
+    font-size: 1.0rem;
     cursor: pointer;
     &.active{
-    color: #fff;
+    color: #000;
   }
   }
 `;

@@ -13,6 +13,11 @@ width: 100%;
 padding-top: 200px;
 justify-content: flex-end;
 height: 60vh;
+@media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+    padding-top: 0px;
+    margin-bottom: 20px;
+  }
 &:active{
     
 }
@@ -26,7 +31,15 @@ align-items: flex-start; */
 width: 50%;
 @media screen and (max-width: 768px) {
     width: 100%;
+    height: 100%;
   
+}
+div{
+    @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 40%;
+  
+}
 }
 `
 export const ContactImage = styled.div`
@@ -193,9 +206,17 @@ color: #000;
 
 @media screen and (max-width: 768px) {
     font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }
 @media screen and (max-width: 480px) {
-    font-size: 16px;
+    font-size: 26px;
+    text-align: center;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
 }`
 export const FotterHName = styled.div`
 padding: 20px 0px 20px 80px ;

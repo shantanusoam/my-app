@@ -10,14 +10,17 @@ import {ContactContainer, ContactForm,ContactImage,
   Heading
  } from './ContactSEctionElements'
 
-const ContactSection = ({isOpen,toggle}) => {
+const ContactSectio = ({isOpen,toggle}) => {
+  
+ 
+  
     return (
       <ContactContainer id="ContactUs">
         
           <ContactForm >
             <Heading>Get in touch with our experts</Heading>
           <div data-aidaform-widget="form-2019-12" data-url="https://shantanu.aidaform.com/bigrig" data-width="100%" data-height="500px" data-do-resize></div>
-          
+        
           </ContactForm>
           
           <ContactImage>
@@ -67,5 +70,18 @@ Finsweet@gmail.com</FotterContactNo>
       
     )
 }
+class ContactSection extends React.Component {
+  
+  // componentDidMount() {
+  //   window.location.reload(false);
+  // }
+  
+  render() {
+    const PageComponent = this.props.component
 
+    return (
+      <ContactSectio />
+    )
+  }
+}
 export default ContactSection

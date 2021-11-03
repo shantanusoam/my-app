@@ -13,35 +13,39 @@ justify-content: space-around;
 width: auto;
 min-height: 65vh;
 height:auto;
+
+@media screen and (max-width: 2068px) {
+  flex-direction: column-reverse;
+   
+   
+}
 `
 export const AboutContainerContent = styled.div`
 background: #277DBD;
 
 
-display: flex;
+display: flex ;
 flex-wrap: nowrap;
 flex-direction: row;
-
-justify-content: center;
-align-items: center;
-padding-right: -30px;
-width: 70%;
-@media screen and (max-width: 2068px) {
-  
-    width: 50%;
-   
+justify-content: flex-end
+@media screen and (max-width: 768px) {
+    width:100%;
+    height:100%;
 }
-margin: 0px 90px 0px 200px; 
-@media screen and (max-width: 968px) {
-    flex-direction: column;
-    width: 100%;
-    margin: 0px ;
-}
-
 `
+
+
 export const SpaceTruck = styled.div`
 display: flex;
 width: 300px;
+
+`
+export const SpaceContainer = styled.div`
+flex-grow: 2;
+@media screen and (max-width: 768px) {
+    display: none;
+    
+}
 `
 export const AboutContainerTextContent = styled.div`
 display: flex;
@@ -49,9 +53,11 @@ padding: 55px 0px 55px 55px;
 width:40%;
 flex-direction: column;
 align-items: flex-start;
-justify-content: center;  
+justify-content: center; 
+flex-grow:1;
 @media screen and (max-width: 768px) {
     width:100%;
+    flex-direction: column;
 }
 @media screen and (max-width: 1920px) {
     width:30%;
@@ -84,7 +90,23 @@ background-size: cover;
 
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; 
-  
+
+    img{
+        width: 500px;
+        @media screen and (max-width: 768px) {
+    position: relative;
+    
+    width:100%;
+   
+}
+    }
+@media screen and (max-width: 768px) {
+    position: relative;
+    width:100%;
+    left: 0;
+    flex-direction: column;
+}
+   
 `
 export const AboutContainerImageContent2 = styled.div`
 
@@ -140,11 +162,11 @@ font-size: 56px;
 color: #ffff;
 
 @media screen and (max-width: 768px) {
-    font-size: 28px;
+    line-height: 60px;
+    font-size: 68px;
+    width: 20%;
 }
-@media screen and (max-width: 480px) {
-    font-size: 20px;
-}
+
 `
 export const AboutContainerPara = styled.p`
 margin-top: 4px;
@@ -162,11 +184,11 @@ color: #F2F2F2;
 
 max-width: 60rem;
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 30px;
+    line-height: 30px;
+    width: 80%;
 }
-@media screen and (max-width: 480px) {
-    font-size: 18px;
-}
+
 
 `
 export const AboutContainerButton = styled(LinkR)`
@@ -187,7 +209,7 @@ display : block;
 
   /* Second Nav */
   @media screen and (max-width: 768px) {
-    display : none;
+    display : block;
 }
 
   &:hover {

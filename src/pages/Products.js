@@ -7,7 +7,7 @@ import ProductTop from '../components/ProductTop';
 
 
 
-const Products = () => {
+const Product = () => {
   const [isOpen, setIsOpen] = useState(false)
   const toggle = () =>{
     setIsOpen(!isOpen)
@@ -21,5 +21,19 @@ const Products = () => {
     
   )
 };
+class Products extends React.Component {
+  
+  componentDidMount() {
+    document.title = "BigRig Product"
+  }
+  
+  render() {
+    const PageComponent = this.props.component
+
+    return (
+      <Product />
+    )
+  }
+}
 
 export default Products;

@@ -11,7 +11,10 @@ align-items: center;
 justify-content: center;
 width: 100%;
 height: 50vh;
-
+@media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+    display: none;
+  }
 `
 
 export const SocialMediaActionsContainer = styled.div`

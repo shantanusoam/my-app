@@ -3,12 +3,12 @@
   background-color: #f7f7f7;
  
   
-width: 100%;
+width: 100vw;
 }
 
 .embla__viewport {
   overflow: hidden;
-  width: 100%;
+  width: 100vw;
 }
 
 .embla__viewport.is-draggable {
