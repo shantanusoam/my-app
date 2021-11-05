@@ -1,8 +1,8 @@
 import React from 'react'
 
-import { animateScroll as scroll,Link } from 'react-scroll';
+
 import { Conatainer,ImageContainer,ContentContainer,ContentHeadingContainer,Heading,SubHeading,ContentStepsContainer,StepNoContainer ,NoContainer,StarightLine,StepNoContentContainer,SteapHeadingContainer,StepHeading,StepSubheading} from './ProvideExpertServiceElement';
-import PES from '../../images/PES.png'
+import OpenTrailer from '../../images/PES.png'
 const ProvideExpertService = ({isOpen,toggle}) => {
     return (
     
@@ -23,7 +23,7 @@ const ProvideExpertService = ({isOpen,toggle}) => {
             <NoContainer>03</NoContainer>
         </StepNoContainer>
         <StepNoContentContainer>
-            <SteapHeadingContainer><StepHeading>Select your product</StepHeading><StepSubheading>Through True Rich Attended does no end it his mother since real had half every </StepSubheading></SteapHeadingContainer>
+            <SteapHeadingContainer><StepHeading>Select your Trailers</StepHeading><StepSubheading>Seelect trailer from our wide varity of trailer</StepSubheading></SteapHeadingContainer>
             <SteapHeadingContainer><StepHeading>Book an Appointment</StepHeading><StepSubheading>Through True Rich Attended does no end it his mother since real</StepSubheading></SteapHeadingContainer>
             <SteapHeadingContainer><StepHeading>Get your Trailer</StepHeading><StepSubheading>Ecstatic unsatiable saw his giving Remain expense you position concluded. </StepSubheading></SteapHeadingContainer>
 
@@ -31,7 +31,7 @@ const ProvideExpertService = ({isOpen,toggle}) => {
     </ContentStepsContainer>
     </ContentContainer>
     <ImageContainer>
-    <img src={PES} alt="" width="413px"/>
+    <img src={OpenTrailer} alt="" width="413px"/>
     </ImageContainer>
 </Conatainer>
              </>

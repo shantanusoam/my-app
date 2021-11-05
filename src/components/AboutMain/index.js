@@ -8,7 +8,7 @@ const AboutMain = ({isOpen,toggle}) => {
             <h1 className="text-left text-black font-bold text-6xl pb-8">Who we are and what we do</h1>
             <p className="text-left text-gray-800 pb-8">We provide a full range of front end mechanical repairs for all makes and models of cars, no matter the cause. This includes, We provide a full range of front end mechanical </p>
         </TextContaner>
-        <img src={whitetruck} alt="" width="1500rem"/>
+        <img src={whitetruck} alt="Our services Truck on black road" width="1500rem"/>
       </AboutContainer>
       
     )

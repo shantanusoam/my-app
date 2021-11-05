@@ -5,7 +5,7 @@ const DAboutSection = ({isOpen,toggle}) => {
     return (
       <AboutContainer id="About">
         <AboutContainerImageContent>
-        <img src={whitetruck} alt=""/>
+        <img src={whitetruck} alt="Our services Truck (White Truck with Trailer running on black road)"/>
              </AboutContainerImageContent>
         
           <AboutContainerContent>

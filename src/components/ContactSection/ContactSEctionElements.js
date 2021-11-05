@@ -297,3 +297,33 @@ flex-direction: row;
 align-items: center;
 justify-content: center;
 `
+export const WWOCCButton = styled(LinkR)`
+padding: 25px;
+display: block;
+  display: flex;
+    justify-content: center;
+  background: #93CC00;
+  padding: 10px 22px;
+  white-space: nowrap;
+  padding: 20px 92px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  border: none;
+  
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+
+  /* Second Nav */
+  margin-left: 24px;
+
+  &:hover {
+    transition: all 0.2s ease-in-out;
+    background: #93CC00;
+    color: #010606;
+  }
+  @media screen and (max-width: 768px) {
+    display: none;
+}
+`;

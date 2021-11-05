@@ -228,7 +228,7 @@ export const CardPara = Styled.button`
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
+font-size: 20px;
 
 text-align: center;
 z-index: 2;
@@ -297,11 +297,11 @@ z-index: 2;
 flex-direction: column;
 align-items: start;
 `
-export const callinfo = Styled.p`
+export const Callinfo = Styled.p`
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
+font-size: 20px;
 
 text-align: center;
 
@@ -318,7 +318,7 @@ export const Info = Styled.div`
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 15px;
+font-size: 20px;
 
 text-align: center;
 z-index: 2;

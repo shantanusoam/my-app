@@ -2,7 +2,7 @@ import React from 'react'
 import {ContactContainer, ContactForm,ContactImage,
 
   FotterNav,
-
+  WWOCCButton,
   FotterContact,
   FotterContactlist,
   FotterContactNo,
@@ -10,17 +10,27 @@ import {ContactContainer, ContactForm,ContactImage,
   Heading
  } from './ContactSEctionElements'
 
+ import { animateScroll as scroll,Link } from 'react-scroll';
 const ContactSectio = ({isOpen,toggle}) => {
   
+  function refreshPage() {
+    hide="lol"
+    window.location.reload(false);
+    
+  }
  
-  
+  var hide="ContactUs"
     return (
       <ContactContainer id="ContactUs">
         
           <ContactForm >
             <Heading>Get in touch with our experts</Heading>
           <div data-aidaform-widget="form-2019-12" data-url="https://shantanu.aidaform.com/bigrig" data-width="100%" data-height="500px" data-do-resize></div>
-        
+          <WWOCCButton className="p-8" onClick={refreshPage} id={`${hide}`}>
+              
+                Contact Us
+            
+            </WWOCCButton>
           </ContactForm>
           
           <ContactImage>
@@ -30,7 +40,7 @@ const ContactSectio = ({isOpen,toggle}) => {
           <FotterContactlist>
             
             <FotterContactName>Address</FotterContactName>
-            <FotterContactNo>NH 234   Public Square San Francisco  65368</FotterContactNo>
+            <FotterContactNo>1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
         {/* <hr align="left" width="100%"></hr> */}
@@ -38,7 +48,7 @@ const ContactSectio = ({isOpen,toggle}) => {
           <FotterContactlist>
            
             <FotterContactName>Contact  Details</FotterContactName>
-            <FotterContactNo>1800 265 24 52
+            <FotterContactNo>(604) 864 3100
 Finsweet@gmail.com</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
@@ -77,7 +87,7 @@ class ContactSection extends React.Component {
   // }
   
   render() {
-    const PageComponent = this.props.component
+
 
     return (
       <ContactSectio />

@@ -3,25 +3,22 @@ import React from "react";
 import { FaInstagram, FaFacebook, FaTwitter, FaLinkedin } from "react-icons/fa";
 
 
-import { GrMapLocation } from "react-icons/gr";
-import { AiOutlineMail } from "react-icons/ai";
 import {
   FooterContainer,
   SocialMediaActions,
   FooterLogo,
   FotterNav,
-  FotterNavH,
-  FotterContactN,
+
   FotterContact,
   FotterContactlist,
   FotterContactNo,
   FotterContactName,
   SocialMediaActionsContainer,
-  FotterSocialMedia,
+
   footerMobileContainer,
   FotterHName
 } from "./FooterSectionElements";
-import logo from "../../images/logo.png";
+
 const FooterSection = ({ isOpen, toggle }) => {
   return (
     <FooterContainer id="Footertag">
@@ -50,7 +47,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           <FotterContactlist>
             
             <FotterContactName> Help line Number</FotterContactName>
-            <FotterContactNo>1800 265 24 52</FotterContactNo>
+            <FotterContactNo>(604) 864 3100</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
         {/* <hr align="left" width="100%"></hr> */}
@@ -58,7 +55,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           <FotterContactlist>
            
             <FotterContactName>Address</FotterContactName>
-            <FotterContactNo>NH 234   Public Square San Francisco  65368</FotterContactNo>
+            <FotterContactNo>1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
         {/* <hr align="left" width="100%"></hr> */}

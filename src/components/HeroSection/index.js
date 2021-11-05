@@ -6,16 +6,14 @@ import {
   HeroP,
   HeroContent,
   WWOCCButton,
-  HeroBg,
+
   HeroPromoContainer,
   HeroPromo,
-  WWOCardContent,
-  CardHeading,
-  CardPara,
+ 
   SocialMediaActions,
   HomeContactContent,
   Info,
-  callinfo,
+  Callinfo,
 } from "./HeroElements";
 import { FiPhoneCall } from "react-icons/fi";
 import { AiOutlineMail } from "react-icons/ai";
@@ -26,11 +24,16 @@ import EmblaCarousel from "./EmblaCarousel";
 const SLIDE_COUNT = 5;
 const slides = Array.from(Array(SLIDE_COUNT).keys());
 const HeroSection = () => {
+  function sendEmail() 
+{
+    window.location.assign("mailto:trailers@bigrigcanada.com?subject=Your Query&body=Description");
+}
   const [hover, setHover] = useState(false);
   const onHover = () => {
     setHover(!hover);
   };
   return (
+
     <HeroContainer id="Home">
       
       {/* <HeroBg>
@@ -68,17 +71,10 @@ const HeroSection = () => {
               that are suitable for your dream home{" "}
             </p>
 
-            <WWOCCButton className="p-8">
-              <Link
-                to="Footertag"
-                smooth={true}
-                duration={500}
-                spy={true}
-                exact={true}
-                offset={-80}
-              >
+            <WWOCCButton className="p-8" to="/Contact">
+              
                 Contact Us
-              </Link>
+              
             </WWOCCButton>
           </div>
         </div>
@@ -91,16 +87,16 @@ const HeroSection = () => {
           </SocialMediaActions>
           <HomeContactContent>
             <Info>(604) 864 3100</Info>
-            <callinfo>call</callinfo>
+            <Callinfo>call</Callinfo>
           </HomeContactContent>
         </HeroPromo>
-        <HeroPromo>
+        <HeroPromo  onclick="sendEmail();">
           <SocialMediaActions>
             <AiOutlineMail></AiOutlineMail>
           </SocialMediaActions>
           <HomeContactContent>
             <Info>trailers@bigrigcanada</Info>
-            <callinfo>Email</callinfo>
+            <Callinfo>Email</Callinfo>
           </HomeContactContent>
         </HeroPromo>
         <HeroPromo>
@@ -109,7 +105,7 @@ const HeroSection = () => {
           </SocialMediaActions>
           <HomeContactContent>
             <Info>Canada</Info>
-            <callinfo>Location</callinfo>
+            <Callinfo>1225 Riverside Rd, Abbotsford, BC V2S 7P1</Callinfo>
           </HomeContactContent>
         </HeroPromo>
       </HeroPromoContainer>

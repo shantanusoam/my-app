@@ -6,10 +6,10 @@ const ProductBottom = ({isOpen,toggle}) => {
     return (
       <AboutContainer id="About">
         <ProductSlideImage>
-        <img src={whitetruck} alt=""  height="200px" width="320px"/>
+        {/* <img src={whitetruck} alt=""  height="200px" width="320px"/>
         <img src={whitetruck} alt="" height="200px" width="320px"/>
         <img src={whitetruck} alt="" height="200px" width="320px"/>
-        <img src={whitetruck} alt="" height="200px" width="320px"/>
+        <img src={whitetruck} alt="" height="200px" width="320px"/> */}
      
         </ProductSlideImage>
         <TextContaner>

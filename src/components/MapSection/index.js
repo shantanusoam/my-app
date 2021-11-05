@@ -1,6 +1,6 @@
 import React from 'react'
 import {ContactContainer, BackgroundImage,MapElement} from './MapSectionElements'
-import logo from '../../images/ContactTire.png'
+
 const MapSection = ({isOpen,toggle}) => {
     return (
         <ContactContainer id="ContactUs"    >

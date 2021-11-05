@@ -8,12 +8,10 @@ import { animateScroll as scroll,Link } from 'react-scroll';
 import {
 
   Nav,
-  NavLink,
 
   NavMenu,
   NavBtn,
-  NavBtnLink,
-  NavbarContainer,
+
   NavLogo,
   MobileIcon,
   NavItem,
@@ -22,7 +20,7 @@ import {
 } from './BottomBarElements';
 
 const BottomBar = ({toggle}) => {
-  const [scrollNav, setScrollNav] = useState(false);
+  const [scrollNav] = useState(false);
   // const changeNav = ()=> {
   //   if(window.scrollY >= 100) {
   //     setScrollNav(true)

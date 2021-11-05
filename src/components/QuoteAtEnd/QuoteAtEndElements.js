@@ -57,7 +57,7 @@ justify-content: flex-start;
 flex-direction: row;
 align-items: center;
 `
-export const WWOCCParagraph = styled.p`
+export const WWOCCParagraph = styled(LinkR)`
 
 padding: 20px;
 margin-top: 4px;

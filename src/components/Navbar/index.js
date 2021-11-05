@@ -8,12 +8,11 @@ import { animateScroll as scroll,Link } from 'react-scroll';
 import {
 
   Nav,
-  NavLink,
+
 
   NavMenu,
   NavBtn,
-  NavBtnLink,
-  NavbarContainer,
+
   NavLogo,
   MobileIcon,
   NavItem,
