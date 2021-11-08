@@ -27,7 +27,7 @@ background: #277DBD;
 display: flex ;
 flex-wrap: nowrap;
 flex-direction: row;
-justify-content: flex-end
+justify-content: flex-end;
 @media screen and (max-width: 768px) {
     width:100%;
     height:100%;
