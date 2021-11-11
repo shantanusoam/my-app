@@ -55,6 +55,8 @@ img{
   height:"92px";
   @media screen and (max-width: 480px) {
     height:"42px";
+    justify-content: center;
+    align-items: center;
 }
 }
 &.active{

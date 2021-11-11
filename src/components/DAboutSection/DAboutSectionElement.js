@@ -184,7 +184,8 @@ color: #F2F2F2;
 
 max-width: 60rem;
 @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 19px;
+
     line-height: 30px;
     width: 80%;
 }

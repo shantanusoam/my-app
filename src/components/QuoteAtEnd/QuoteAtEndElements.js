@@ -37,7 +37,8 @@ font-style: normal;
 font-weight: bold;
 font-size: 36px;
 line-height: 42px;
-text-align: start;
+
+
 width: 100%;
 color: #ffff;
 
@@ -47,8 +48,8 @@ color: #ffff;
 }
 @media screen and (max-width: 480px) {
   font-size: 30px;
-   padding: 0px 0px 120px 0px;
-
+   padding: 0px 30px 120px 0px;
+   text-align: center;
 }
 `
 export const CButton = styled.div`
