@@ -22,6 +22,10 @@ margin-top: 0px;
   @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
     margin-top: 0px;
+    justify-content: start;
+    width: 100%;
+    position: relative;
+   
   }
 
   /* Third Nav */
@@ -35,6 +39,12 @@ z-index: 1;
 width: 100%;
 padding: 0 24px;    
 max-width: 1100px;
+@media screen and (max-width: 768px) {
+    transition: 0.8s all ease;
+    margin-top: 0px;
+    width: 20%;
+    justify-content: start;
+  }
 `;
 export const NavLogo = styled(LinkR)`
 color : #000;
@@ -51,12 +61,22 @@ text-decoration: none;
 @media screen and (max-width: 480px) {
   padding: 5px;
 }
+@media screen and (max-width: 768px) {
+  
+    padding: 5px;
+  }
 img{  
   height:"92px";
   @media screen and (max-width: 480px) {
     height:"42px";
     justify-content: center;
     align-items: center;
+
+}
+@media screen and (max-width: 768px) {
+  height:"20px";
+  width: "10px";
+  padding: 5px;
 }
 }
 &.active{

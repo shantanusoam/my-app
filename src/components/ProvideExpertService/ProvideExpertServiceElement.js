@@ -143,9 +143,11 @@ flex-direction: column;
 justify-content: start;
 @media screen and (max-width: 768px) {
     margin: 5px;
+    width: 100%;
 }
 @media screen and (max-width: 480px) {
     margin: 5px;
+    width: 100%;
 }
 
 `
@@ -163,7 +165,7 @@ color: #010101;
 
 @media screen and (max-width: 768px) {
     font-size: 70px;
-   
+    width: 90%;
     color: #1E1B1B;
 }
 @media screen and (max-width: 480px) {
@@ -185,7 +187,7 @@ color: #938D8D;
 
 @media screen and (max-width: 768px) {
     font-size: 40px;
-    width: 50%;
+    width: 80%;
     color: #938D8D;
 }
 @media screen and (max-width: 480px) {

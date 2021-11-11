@@ -11,13 +11,13 @@ const Sidebar = ({isOpen,toggle}) => {
                 <SidebarMenu>
                     <SidebarLink  to='/'  >
                     <a onClick={toggle} to='/' 
-          smooth={true} duration={500} spy={true} exact={true} offset={-80}>Home</a>
+         >Home</a>
                     </SidebarLink>
                     <SidebarLink to='/About' >
-                    <a  onClick={toggle} to='/About' smooth={true} duration={500} spy={true} exact={true} offset={-80}>About</a>
+                    <a  onClick={toggle} to='/About' >About</a>
                     </SidebarLink>
                     <SidebarLink to='/Product' >
-                    <a  onClick={toggle} to='/Product' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Product</a>
+                    <a  onClick={toggle}>Product</a>
                     </SidebarLink>
                     
                 </SidebarMenu>

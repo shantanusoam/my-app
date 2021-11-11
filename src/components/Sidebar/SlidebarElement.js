@@ -9,9 +9,10 @@ z-index: 999;
 width: 100%;
 height: 100%;
 background: #0d0d0d;
-display: grid;
-align-items: center;
-
+display: flex;
+flex-direction: column;
+align-items: right;
+justify-content: center;
 top: 0;
 left: 0;
 transition: 0.3s ease-in-out;
@@ -40,18 +41,19 @@ color: #fff
 export const SidebarMenu = styled.ul`
 display : grid;
 grid-template-columns: 1fr;
-grid-template-rows: repeat(6,80px);
+grid-template-rows: repeat(3,80px);
 text-align: center;
 @media screen and (max-width: 480px ){
-    grid-template-rows: repeat(6,60px);
+    grid-template-rows: repeat(4,60px);
 }
 `
 export const SidebarLink = styled(LinkS)`
 display : flex;
 align-items: center;
-justify-content: center;
+justify-content: flex-end;
 font-size: 1.5rem;
 text-decoration:none;
+padding-right: 3rem;
 transition: 0.2s ease-in-out;
 text-decoration: none;
 color: #fff;
@@ -64,7 +66,8 @@ cursor: pointer;
 `
 export const SideBtnWrap = styled.div`
 display: flex;
-justify-content: center;
+justify-content: flex-end;
+padding-right: 2rem;
 
 `
 export const SidebarRoute = styled(LinkR)`
