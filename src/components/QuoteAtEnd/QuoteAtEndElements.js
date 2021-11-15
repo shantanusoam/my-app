@@ -13,6 +13,7 @@ align-items: flex-start;
 justify-content : center;
 width: 100%;
 height: 50vh;
+overflow: hidden;
 @media screen and (max-width: 768px) {
   height: 80vh;
   background: #1e1b1b url(${Mbgimage}) no-repeat center center;

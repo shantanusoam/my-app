@@ -11,8 +11,9 @@ position: relative;
 align-items: center;
 justify-content: space-around;
 width: auto;
-min-height: 65vh;
-height:auto;
+min-height: 70vh;
+position: relative;
+overflow: hidden;
 
 @media screen and (max-width: 2068px) {
   flex-direction: column-reverse;
@@ -28,6 +29,7 @@ display: flex ;
 flex-wrap: nowrap;
 flex-direction: row;
 justify-content: flex-end;
+width: 70%;
 @media screen and (max-width: 768px) {
     width:100%;
     height:100%;
@@ -81,18 +83,19 @@ export const AboutContainerImageContent = styled.div`
 
 position: absolute;
 top: 30;
-left: 280px;
+left: 180px;
 
 background-size: cover;
   z-index: 6;
     background-blend-mode: screen;
 
-
+    
     border-top-left-radius: 3px;
     border-top-right-radius: 3px; 
 
     img{
-        width: 500px;
+        top: 0;
+        width: 400px;
         @media screen and (max-width: 768px) {
     position: relative;
     

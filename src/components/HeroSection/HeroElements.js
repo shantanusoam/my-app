@@ -6,12 +6,13 @@ background: transparent url(${bgimage}) no-repeat center center;
 overflow: hidden;
 
 display: flex;  
-justify-content: space-between;
+flex-direction: column;
+justify-content: flex-end;
 align-items: center;
 margin: 0;
 padding: 0;
 
-width: 100vw;
+width: 100%;
 position: relative;
 height: 100vh;
 background-size: cover;
@@ -42,8 +43,8 @@ padding-bottom: 90px;
 export const WWOCArd = Styled.div`
   flex: 0 0 200px;
     margin: 10px;
-    width: 200%;
-    width: 500px;
+   
+   
     border: 1px solid #ccc;
     box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.01);
 z-index: 5;
@@ -67,7 +68,7 @@ padding: 200px;
 `
 export const WWOCardimage = Styled.div`
 display: flex;
-width: 100%;
+
 height: 100%;
 `
 
@@ -82,7 +83,6 @@ height: 100%;
 // `
 export const VideoBg = Styled.video`
 
-width: 100%;
 
 height: 100%;
 
@@ -93,10 +93,10 @@ object-fit: cover;
 
 `
 export const HeroContent = Styled.div`
-padding: 0px 0px 0px 100px;
+padding: 0px 20px 0px 20px;
 z-index: 2;
-
-position: absolute;
+margin-left: 20vw;
+flex:1;
 width: 100%;
 
 flex-wrap: wrap;
@@ -105,13 +105,13 @@ justify-content: space-between;
 flex-direction: row;
 
 align-items: center;
-margin-top: -200px;
+
 
 div{
-    width: 55%;
-    display: block;
-    align-items: right;
-    margin-right: -300px;
+    width: 60%;
+   
+   
+   
     @media screen and (max-width: 768px) {
     display: none;
     
@@ -135,6 +135,7 @@ div{
 @media screen and (max-width: 768px) {
         flex-direction: column;
         padding: 0px 0px 0px 0px;
+        margin:0px;
     }
 @media screen and (max-width: 480px) {
     padding: 200px 0px 0px 0px;
@@ -143,6 +144,7 @@ div{
     font-size: 32px;
     align-items: center;
     justify-content: center;
+    margin:0px;
 }
 `
 export const PCENTER = Styled.p`
@@ -180,16 +182,17 @@ margin-top: 24px;
 font-family: poppins;
 font-style: normal;
 font-weight: 800;
-font-size: 120px;
+font-size: 16px;
+font-size: 4vw;
 line-height: 89.69%;
 text-align: left;
-width: 36%;
+width: 40%;
 z-index: 2;
 color: #FFFFFF;
 
 @media screen and (max-width: 768px) {
     font-size: 54px;
-    width: 55%;
+ 
     text-align: center; 
 }
 /* @media screen and (max-width: 1024px) {
@@ -199,7 +202,7 @@ color: #FFFFFF;
 } */
 @media screen and (max-width: 375px) {
     font-size: 42px;
-    width: 50%;
+    
   
     text-align: center; 
 }
@@ -210,12 +213,12 @@ font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
-width: 100%;
+
 padding: 25px 80px 25px 0px;
 text-align: start;
 z-index: 2;
 color: #FFFFFF;
-max-width: 60rem;
+
 @media screen and (max-width: 768px) {
     font-size: 24px;
 }
@@ -233,7 +236,7 @@ font-size: 20px;
 text-align: center;
 z-index: 2;
 color: #FFFFFF;
-max-width: 60rem;
+
 @media screen and (max-width: 768px) {
     font-size: 24px;
 }
@@ -252,11 +255,9 @@ align-items: center;
 export const HeroPromoContainer = Styled.div`
 z-index: 10;
 display: flex;
-
-margin-top: 40%;
-margin-left: 35%;
+flex:0;
 justify-content: center;
-z-index: 2;
+
 flex-direction: row;
 align-items: center;
 @media screen and (max-width: 768px) {
@@ -266,6 +267,7 @@ align-items: center;
 export const HeroPromo = Styled.div`
 margin-top: 32px;
 display: flex;
+flex:1;
 z-index: 2;
 flex-direction: row;
 align-items: flex-end
@@ -306,7 +308,7 @@ font-size: 20px;
 text-align: center;
 
 color: #FFFFFF;
-max-width: 60rem;
+
 @media screen and (max-width: 768px) {
     font-size: 24px;
 }
@@ -323,7 +325,7 @@ font-size: 20px;
 text-align: center;
 z-index: 2;
 color: #FFFFFF;
-max-width: 60rem;
+
 @media screen and (max-width: 768px) {
     font-size: 24px;
 }

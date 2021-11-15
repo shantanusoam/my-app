@@ -12,8 +12,11 @@ const Contac = () => {
   }
   return (
     <>
-      <ContactSection></ContactSection>
+    <div style={{margin:"20px"}}>
+    <ContactSection></ContactSection>
     <MapSection></MapSection>
+    </div>
+      
     </>
       
     

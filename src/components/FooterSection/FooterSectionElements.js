@@ -2,7 +2,7 @@ import { FaBars } from 'react-icons/fa';
 import {  Link as LinkR } from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
-
+import { mobile, laptop } from '../../responsive'
 export const FooterContainer = styled.div`
  background: #2F7DBD;
 display:flex;
@@ -11,10 +11,18 @@ align-items: center;
 justify-content: center;
 width: 100%;
 height: 50vh;
-@media screen and (max-width: 768px) {
+overflow: hidden;
+${mobile({ transition: "0.8s all ease",
+    display: "none" })}
+  
+/* @media screen and (max-width: 320px) and (max-width : 480px) {
     transition: 0.8s all ease;
     display: none;
   }
+@media screen and (max-width: 768px) and (max-width:1024px) {
+  
+  padding: 10px;
+} */
 `
 
 export const SocialMediaActionsContainer = styled.div`
@@ -59,6 +67,9 @@ align-items: center;
     flex: 0 0 200px;
     flex-direction: column;
 }
+    ${mobile({ flex: "0 0 200px",
+        "flex-direction": "column" })}
+    ${laptop({ padding: "1000px"})}
 `
 export const FotterNavH = styled.div`
 
@@ -124,16 +135,17 @@ color: #FFFFFF;
 
 opacity: 0.6;
 
-line-height: 42px;
+line-height: 15px;
 
 color: #fff;
-
-@media screen and (max-width: 768px) {
+${mobile({ "font-size": "20px", padding: "10px 0px 0px 0px" })}
+${laptop({"font-size": "10px", padding: "10px 0px 0px 0px" })}
+/* @media screen and (max-width: 768px) {
     font-size: 20px;
 }
 @media screen and (max-width: 480px) {
     font-size: 16px;
-}
+} */
 `
 export const FotterHName = styled.div`
 padding: 20px 0px 20px 80px ;

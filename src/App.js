@@ -25,7 +25,7 @@ function App() {
     <Navbar toggle={toggle}></Navbar>
 {/* <Stickbar/> */}
 <Switch>
-  <Route exact path="/" component={Home} title="BigRig"/>
+  <Route exact   path="/" component={Home} title="BigRig"/>
   <Route exact path="/Contact" component={Contact} title="BigContact"/>
   <Route exact path="/About" component={About}  title="BigAbout"/>
   <Route exact path="/Product" component={Products}  title="BigRigProduct"/>

@@ -15,7 +15,7 @@ const ContactSectio = ({isOpen,toggle}) => {
   
   function refreshPage() {
     hide="lol"
-    window.location.reload(false);
+    window.location.reload();
     
   }
  

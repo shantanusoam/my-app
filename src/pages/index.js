@@ -51,7 +51,7 @@ class Home extends React.Component {
   }
   
   render() {
-    const PageComponent = this.props.component
+   
 
     return (
       <Lol />

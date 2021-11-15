@@ -3,6 +3,7 @@ import {  Link as LinkR } from 'react-router-dom';
 import {Link as LinkS} from 'react-scroll';
 import styled from 'styled-components';
 import bgimage from '../../images/ContactTire.png';
+import { mobile, laptop } from '../../responsive'
 export const ContactContainer = styled.div`
  background: #fff;
 display:flex;
@@ -12,7 +13,10 @@ padding: 50px;
 width: 100%;
 padding-top: 200px;
 justify-content: flex-end;
-height: 60vh;
+height: 80vh;
+overflow: hidden;
+;
+
 @media screen and (max-width: 768px) {
     transition: 0.8s all ease;
     padding-top: 0px;
@@ -56,7 +60,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 42px;
+
 
 color: #ED1C24;
 
@@ -73,7 +77,7 @@ font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
-line-height: 42px;
+
 
 color: #010101;
 
@@ -90,12 +94,14 @@ export const footerMobileContainer = styled.div`
     flex-direction: row;
     align-items: center;
     width: 100%;
+    padding-bottom: 20px;
     justify-content: center;
 @media screen and (max-width: 768px) {
   
     flex-wrap: wrap;
     align-items: flex-start;
 }
+
 `
 export const FooterLogo = styled.div`
 padding-top: 20px;
@@ -105,7 +111,7 @@ align-items: center;
 `
 export const FotterNav = styled.div`
 display: flex;
-padding: 25px;
+padding-bottom: 150px;
 flex-direction: column;
 align-items: center;
 @media screen and (max-width: 768px) {
@@ -116,12 +122,12 @@ align-items: center;
 export const FotterNavH = styled.div`
 
 
-z-index: 2;
+
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
-line-height: 42px;
+
 padding: 20px;
 padding-right: 50px;
 padding-left: 50px;
@@ -147,7 +153,7 @@ align-items: center;
 }
 `
 export const FotterContactlist = styled.div`
-padding: 10px;
+padding: 0px;
 padding-right: 80px;
 padding-left: 80px;
 width: 150%;
@@ -161,7 +167,7 @@ padding: 20px 0px 0px 0px ;
 display: flex;
 flex-direction: row;
 align-items: flex-start;
-z-index: 10;
+
 justify-content: center;
 font-family: Roboto;
 font-weight: bold;
@@ -169,7 +175,7 @@ font-weight: bold;
 font-style: normal;
 font-weight: 600;
 font-size: 18px;
-line-height: 175%;
+
 /* identical to box height, or 31px */
 
 
@@ -177,7 +183,7 @@ color: #1E1B1B;
 
 opacity: 0.6;
 
-line-height: 42px;
+
 
 color: #1E1B1B;
 
@@ -195,21 +201,18 @@ flex-direction: row;
 align-items: center;
 width: 60%;
 justify-content: center;
-z-index: 0;
+
 font-family: Roboto;
 font-weight: bold;
 
-font-size: 60px;
-line-height: 70px;
+font-size: 40px;
+
 
 color: #000;
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (max-width:1024px) {
     font-size: 20px;
-    text-align: center;
-    width: 100%;
-    padding: 0px;
-    margin: 0px;
+  
 }
 @media screen and (max-width: 480px) {
     font-size: 26px;
@@ -225,12 +228,12 @@ flex-direction: row;
 align-items: center;
 width: 68.21%;
 justify-content: center;
-z-index: 10;
+
 font-family: Roboto;
 font-weight: bold;
 
 font-size: 40px;
-line-height: 70px;
+
 
 color: #1E1B1B;
 
@@ -245,7 +248,6 @@ export const FotterContactNo = styled.div`
 display: flex;
 text-align: flex-start;
 justify-content: center;
-z-index: 10;
 
 font-family: Roboto;
 font-style: normal;
@@ -254,7 +256,7 @@ font-weight: bold;
 font-style: normal;
 font-weight: 600;
 font-size: 24px;
-line-height: 36px;
+
 /* identical to box height, or 150% */
 
 letter-spacing: -0.03em;
@@ -273,12 +275,12 @@ color: #1E1B1B;
 
 export const FotterContactN = styled.div`
 
-z-index: 10;
+
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
-line-height: 12px;
+
 padding: 60px 0px 0px 0px ;
 color: #fff;
 

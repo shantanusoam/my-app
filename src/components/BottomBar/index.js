@@ -42,7 +42,7 @@ const BottomBar = ({toggle}) => {
         
         <NavLogo to='/' onClick={toggleHome} >
  
-        <h3 className="text-left text-gray-200 font-bold text-6xl">BIG-RIG</h3>
+        <h3 className="text-left text-gray-200 font-bold lg:text-3xl md:text-3xl">BIG-RIG</h3>
         </NavLogo>
         
         
