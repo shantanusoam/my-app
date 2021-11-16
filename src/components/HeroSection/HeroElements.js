@@ -186,7 +186,7 @@ font-size: 16px;
 font-size: 4vw;
 line-height: 89.69%;
 text-align: left;
-width: 40%;
+width: 25%;
 z-index: 2;
 color: #FFFFFF;
 
@@ -303,9 +303,9 @@ export const Callinfo = Styled.p`
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 15px;
 
-text-align: center;
+text-align: left;
 
 color: #FFFFFF;
 
@@ -320,7 +320,7 @@ export const Info = Styled.div`
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 20px;
+font-size: 15px;
 
 text-align: center;
 z-index: 2;

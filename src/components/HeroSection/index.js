@@ -63,10 +63,10 @@ const HeroSection = () => {
 
         <div class="pl-4 w-90  md:max-w-9  ">
           <div class="p-8 bg-white  rounded shadow-md bg-opacity-75 ">
-            <h2 class="text-1xl font-bold text-gray-800 p-4 md:" >
+            <h2 class="text-3xl font-bold text-gray-800 p-4 md:" >
               High-Quality Trailers for you
             </h2>
-            <p class="text-gray-600 p-4">
+            <p class="text-gray-600 p-4 text-1xl">
               Our furniture is made from selected and best quality materials
               that are suitable for your dream home{" "}
             </p>
