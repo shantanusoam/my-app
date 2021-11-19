@@ -40,7 +40,15 @@ const ContactSectio = ({isOpen,toggle}) => {
           <FotterContactlist>
             
             <FotterContactName>Address</FotterContactName>
-            <FotterContactNo>1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada</FotterContactNo>
+            <FotterContactNo>Canada
+
+Abbotsford, BC
+
+
+
+United states
+
+California, Texas, Indiana, New jersey and North Caroline</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
         {/* <hr align="left" width="100%"></hr> */}
@@ -49,7 +57,8 @@ const ContactSectio = ({isOpen,toggle}) => {
            
             <FotterContactName>Contact  Details</FotterContactName>
             <FotterContactNo>(604) 864 3100
-Finsweet@gmail.com</FotterContactNo>
+{/* Finsweet@gmail.com */}
+</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
         {/* <hr align="left" width="100%"></hr> */}
@@ -59,7 +68,7 @@ Finsweet@gmail.com</FotterContactNo>
             <FotterContactName>
             Opening Hours</FotterContactName>
             <FotterContactNo>
-            Monday to Friday 9:00 AM to  10:00  AM
+            Monday to Friday 8:00 AM to 5:00 PM
             </FotterContactNo>
           </FotterContactlist>
         </FotterContact>

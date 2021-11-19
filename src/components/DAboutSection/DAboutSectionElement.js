@@ -48,10 +48,14 @@ flex-grow: 2;
     display: none;
     
 }
+@media (min-width:768px) and (max-width:1209px) {
+    
+  display: none;
+        }​
 `
 export const AboutContainerTextContent = styled.div`
 display: flex;
-padding: 55px 0px 55px 55px;
+padding: 0px 0px 15px 5px;
 width:40%;
 flex-direction: column;
 align-items: flex-start;
@@ -101,7 +105,10 @@ background-size: cover;
     
     width:100%;
    
-}
+        }
+        @media (min-width:768px) and (max-width:1209px) {
+  display: none;
+        }​
     }
 @media screen and (max-width: 768px) {
     position: relative;

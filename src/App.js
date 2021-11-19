@@ -39,7 +39,7 @@ function App() {
         <Route path='/sign-up' component={SignUp} />
       </Switch> */}
       {/* <PartnerCompnay></PartnerCompnay> */}
-      <PartnerCompnay></PartnerCompnay>
+      {/* <PartnerCompnay></PartnerCompnay> */}
          <FooterSection></FooterSection>
          <BottomBar></BottomBar>
     </Router>

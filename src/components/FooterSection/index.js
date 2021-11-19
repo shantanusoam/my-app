@@ -25,7 +25,7 @@ const FooterSection = ({ isOpen, toggle }) => {
       <FooterLogo>
       <FotterHName>Get in touch with us for your  service</FotterHName>
       
-        <SocialMediaActionsContainer>
+        {/* <SocialMediaActionsContainer>
         <SocialMediaActions>
              <FaFacebook/>
             </SocialMediaActions>
@@ -38,7 +38,7 @@ const FooterSection = ({ isOpen, toggle }) => {
             <SocialMediaActions>
              <FaLinkedin/>
             </SocialMediaActions>
-          </SocialMediaActionsContainer>
+          </SocialMediaActionsContainer> */}
         
       </FooterLogo>
       <footerMobileContainer>
@@ -55,7 +55,7 @@ const FooterSection = ({ isOpen, toggle }) => {
           <FotterContactlist>
            
             <FotterContactName>Address</FotterContactName>
-            <FotterContactNo>1225 Riverside Rd, Abbotsford, BC V2S 7P1, Canada</FotterContactNo>
+            <FotterContactNo>California, Texas, Indiana, New jersey and North Caroline</FotterContactNo>
           </FotterContactlist>
         </FotterContact>
         {/* <hr align="left" width="100%"></hr> */}
@@ -65,7 +65,7 @@ const FooterSection = ({ isOpen, toggle }) => {
             <FotterContactName>
             We are open</FotterContactName>
             <FotterContactNo>
-            Monday to Friday 9:00 AM to  10:00  AM
+            Monday to Friday 8:00 AM to 5:00 PM 
             </FotterContactNo>
           </FotterContactlist>
         </FotterContact>

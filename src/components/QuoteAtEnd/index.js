@@ -9,8 +9,8 @@ const QuoteAtEnd = ({isOpen,toggle}) => {
               <WWOCArd>
                   
                   <WWOCardContent>
-                      <WWOCCHeading>Are you in United States? We have all what you need</WWOCCHeading>
-                      <WWOCCParagraph>From multipurpose themes to niche templates,you’ll always find something that catches your eye.</WWOCCParagraph>
+                      <WWOCCHeading>ARE YOU IN UNITED STATES? WE GOT YOUR BACK</WWOCCHeading>
+                      <WWOCCParagraph>Big rig Canada extended its reach to distribution warehouses located California, Texas, Indiana, North Carolina, and New Jersey</WWOCCParagraph>
                      <CButton><WWOCCButton to='/Contact'>Contact Us</WWOCCButton>
                      <WWOCCParagraph to={{ pathname: "https://kaltrailers.com" }} target="_blank">or see our portfolio</WWOCCParagraph></CButton> 
                   </WWOCardContent>

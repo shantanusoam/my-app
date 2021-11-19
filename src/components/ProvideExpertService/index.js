@@ -12,7 +12,7 @@ const ProvideExpertService = ({isOpen,toggle}) => {
     
     <ContentContainer>
         <ContentHeadingContainer><Heading>We Provide Expert Service and aim to have a long term with you</Heading>
-        <SubHeading>We provide a full range of front end mechanical repairs for all makes and models of cars, no matter</SubHeading>
+        <SubHeading>As Canada’s ONLY Vanguard authorized dealer, we offer a variety of dry vans and refrigerated trailers.</SubHeading>
     </ContentHeadingContainer>
     <ContentStepsContainer>
         <StepNoContainer>
@@ -23,9 +23,10 @@ const ProvideExpertService = ({isOpen,toggle}) => {
             <NoContainer>03</NoContainer>
         </StepNoContainer>
         <StepNoContentContainer>
-            <SteapHeadingContainer><StepHeading>Select your Trailers</StepHeading><StepSubheading>Seelect trailer from our wide varity of trailer</StepSubheading></SteapHeadingContainer>
-            <SteapHeadingContainer><StepHeading>Book an Appointment</StepHeading><StepSubheading>Through True Rich Attended does no end it his mother since real</StepSubheading></SteapHeadingContainer>
-            <SteapHeadingContainer><StepHeading>Get your Trailer</StepHeading><StepSubheading>Ecstatic unsatiable saw his giving Remain expense you position concluded. </StepSubheading></SteapHeadingContainer>
+            <SteapHeadingContainer><StepHeading>Premium Performance</StepHeading><StepSubheading> Every Vanguard trailer is designed and built to include premium performance features that provide valuable operational savings and years of trouble-free service. </StepSubheading></SteapHeadingContainer>
+            <SteapHeadingContainer><StepHeading>Long Life</StepHeading><StepSubheading>Vanguard takes great pride in offering superior corrosion protection, high strength and long-life specifications</StepSubheading></SteapHeadingContainer>
+            <SteapHeadingContainer><StepHeading>Safety first</StepHeading><StepSubheading>Advanced safety components as standard features on every trailer.
+</StepSubheading></SteapHeadingContainer>
 
         </StepNoContentContainer>
     </ContentStepsContainer>

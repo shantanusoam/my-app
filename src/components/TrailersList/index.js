@@ -17,23 +17,23 @@ class TrailerList extends React.Component {
               {
                 animation: 'left',
                 img:tr1,
-                title:"Trailer1",
-                date:"20 jan 2020",
-                Description:"We provide a best self drone easy to use and operate. With auto pilot, the device will take a beautiful view for the best of flying operation. Drone light is every creators dream. Setting apperture manually and high battery performance. With 2 Terabyte storage, you can take a lot of picture in one take. 4K Camera resolution make your video clean and feels like a real environtment. Capture your moment in easy way effortlesly with auto pilot system. No need to learn how to fly and operate drone. Enjoy your simple and easy flying experience. Drone light is everything you need."
+                title:"DRY VAN TRAILERS",
+                date:"See more",
+                Description:"Dry Van Trailers are used to haul non-temperature sensitive products and come in various sizes and specifications to accommodate our customer’s needs. Kal Trailers keeps ready-to-go dry van trailers in its inventory at all times."
               },
               {
                 animation: 'bottom',
                 img:tr2,
-                title:"Trailer2",
-                date:"20 jan 2020",
-                Description:"We provide a best self drone easy to use and operate. With auto pilot, the device will take a beautiful view for the best of flying operation. Drone light is every creators dream. Setting apperture manually and high battery performance. With 2 Terabyte storage, you can take a lot of picture in one take. 4K Camera resolution make your video clean and feels like a real environtment. Capture your moment in easy way effortlesly with auto pilot system. No need to learn how to fly and operate drone. Enjoy your simple and easy flying experience. Drone light is everything you need."
+                title:"REFRIGERATED TRAILERS",
+                date:"See more",
+                Description:"Our refrigerated trailers have an insulated cargo body equipped with a refrigeration unit in order to control cargo temperature. Kal Trailers keeps ready-to-go refrigerated trailers in its inventory at all times."
               },
               {
                 animation: 'right',
                 img:tr3,
-                title:"Trailer3",
-                date:"20 jan 2020",
-                Description:"We provide a best self drone easy to use and operate. With auto pilot, the device will take a beautiful view for the best of flying operation. Drone light is every creators dream. Setting apperture manually and high battery performance. With 2 Terabyte storage, you can take a lot of picture in one take. 4K Camera resolution make your video clean and feels like a real environtment. Capture your moment in easy way effortlesly with auto pilot system. No need to learn how to fly and operate drone. Enjoy your simple and easy flying experience. Drone light is everything you need."
+                title:"USED TRUCKS",
+                date:"See more",
+                Description:"Designed to reduce your cost of ownership, our trucks improved fuel economy, enhanced safety features and lead the way in technological advancements and driver comfort."
               }
 
           ]
@@ -56,12 +56,13 @@ class TrailerList extends React.Component {
     {this.state.Trailers.map(trailer=>
     
     <Roll lol  key={trailer.img}>
-    <div className="bg-white rounded-xl  m-9 hover:shadow-2xl">
+    <div className="bg-white rounded-xl  m-9 hover:shadow-2xl flex-1 ">
                  <img src={trailer.img} alt="Trailers images" className="rounded-t-xl h-80 w-full object-cover"/>
    
             <div className="p-8">
                 <h3 className="font-bold text-2xl mb-5">{trailer.title}</h3>
                 <br />
+                <h3 className="font-bold text-1xl mb-5 ">{trailer.Description  }</h3>
             <p>{trailer.date}</p>
             
     </div>

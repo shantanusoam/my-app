@@ -41,11 +41,12 @@ const HeroSection = () => {
       </HeroBg> */}
       <HeroContent>
       
-        <HeroP>BEST TRAILERS IN CANADA</HeroP>
+        <HeroP>BEST TRAILERS IN CANADA
+
+</HeroP>
 
         <PCENTER class="text-gray-600 p-8">
-          Our furniture is made from selected and best quality materials that
-          are suitable for your dream home{" "}
+        One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailers servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well. {" "}
         </PCENTER>
         
         <WWOCCButtonM className="p-8">
@@ -64,14 +65,13 @@ const HeroSection = () => {
         <div class="pl-4 w-90  md:max-w-9  ">
           <div class="p-8 bg-white  rounded shadow-md bg-opacity-75 ">
             <h2 class="text-3xl font-bold text-gray-800 p-4 md:" >
-              High-Quality Trailers for you
+            TRUCKS, DRY VANS, REEFERS AND MORE
             </h2>
             <p class="text-gray-600 p-4 text-1xl">
-              Our furniture is made from selected and best quality materials
-              that are suitable for your dream home{" "}
+            One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailers servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well. {" "}
             </p>
 
-            <WWOCCButton className="p-8" to="/Contact">
+            <WWOCCButton className="m-4" to="/Contact">
               
                 Contact Us
               
