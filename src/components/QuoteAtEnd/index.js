@@ -1,7 +1,7 @@
 import React from 'react'
 import {WWOCArd,WWOCardContent,WWOCCHeading,WWOCCParagraph,WWOCCButton,CButton} from './QuoteAtEndElements'
-import { animateScroll as scroll,Link } from 'react-scroll';
-import WWO3 from '../../images/WWO2.png'
+
+
 const QuoteAtEnd = ({isOpen,toggle}) => {
     return (
     

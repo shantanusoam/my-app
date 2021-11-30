@@ -36,7 +36,7 @@ export const WWOCCParagraph = styled.p`
 
 padding: 20px;
 margin-top: 4px;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;

@@ -56,7 +56,7 @@ width: 40%;
 `
 export const AboutContainerHeading = styled.div`
 
-font-family: Roboto;
+font-family: poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -73,7 +73,7 @@ color: #ED1C24;
 `
 export const AboutContainerSubHeading = styled.h2`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -123,7 +123,7 @@ export const FotterNavH = styled.div`
 
 
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -169,7 +169,7 @@ flex-direction: row;
 align-items: flex-start;
 
 justify-content: center;
-font-family: Roboto;
+font-family: Poppins;
 font-weight: bold;
 
 font-style: normal;
@@ -202,7 +202,7 @@ align-items: center;
 width: 60%;
 justify-content: center;
 
-font-family: Roboto;
+font-family: Poppins;
 font-weight: bold;
 
 font-size: 40px;
@@ -229,7 +229,7 @@ align-items: center;
 width: 68.21%;
 justify-content: center;
 
-font-family: Roboto;
+font-family: Poppins;
 font-weight: bold;
 
 font-size: 40px;
@@ -249,7 +249,7 @@ display: flex;
 text-align: flex-start;
 justify-content: center;
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 
@@ -276,7 +276,7 @@ color: #1E1B1B;
 export const FotterContactN = styled.div`
 
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;

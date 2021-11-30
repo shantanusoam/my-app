@@ -33,7 +33,7 @@ background-image: url();
 export const WWOCCHeading = styled.h2`
 padding: 25px;
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -63,7 +63,7 @@ export const WWOCCParagraph = styled(LinkR)`
 
 padding: 20px;
 margin-top: 4px;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 20px;

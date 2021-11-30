@@ -12,6 +12,28 @@ width: 60%;
 align-items: flex-start;
 
 `
+export const NavLink = styled(LinkR)`
+  color: #fff;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  &.active{
+    color: #1E1B1B;
+  }
+  padding: 0 1rem;
+  height: 100%;
+  cursor: pointer;
+
+  &:hover{
+    color: #93CC00;
+  };
+  &.active {
+    color: #15cdfc;
+  };
+  @media screen and (max-width: 768px) {
+  dispaly: none;
+}
+`;
 export const AboutContainer = styled.div`
  background: #fff;
 display:flex;

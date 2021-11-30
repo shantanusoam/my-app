@@ -75,7 +75,7 @@ export const FotterNavH = styled.div`
 
 
 z-index: 2;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -121,7 +121,7 @@ flex-direction: row;
 align-items: flex-start;
 z-index: 10;
 justify-content: center;
-font-family: Roboto;
+font-family: Poppins;
 font-weight: bold;
 
 font-style: normal;
@@ -155,7 +155,7 @@ align-items: center;
 width: 68.21%;
 justify-content: center;
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-weight: bold;
 
 font-size: 40px;
@@ -176,7 +176,7 @@ text-align: flex-start;
 justify-content: center;
 z-index: 10;
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 
@@ -203,7 +203,7 @@ color: #fff;
 export const FotterContactN = styled.div`
 
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;

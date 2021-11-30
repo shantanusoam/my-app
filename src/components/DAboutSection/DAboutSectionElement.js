@@ -43,20 +43,24 @@ width: 300px;
 
 `
 export const SpaceContainer = styled.div`
-flex-grow: 2;
+flex-grow: 1;
 @media screen and (max-width: 768px) {
     display: none;
     
-}
+};
+@media (min-width:1209px) and (max-width:1548px) {
+    flex-grow: 2;
+    
+};
 @media (min-width:768px) and (max-width:1209px) {
     
   display: none;
-        }​
+        }​;
 `
 export const AboutContainerTextContent = styled.div`
 display: flex;
 padding: 0px 0px 15px 5px;
-width:40%;
+width:30%;
 flex-direction: column;
 align-items: flex-start;
 justify-content: center; 
@@ -106,16 +110,20 @@ background-size: cover;
     width:100%;
    
         }
+        @media (min-width:1448px) and (max-width:2448px) {
+    
+            width: 390px;
+        }
         @media (min-width:768px) and (max-width:1209px) {
   display: none;
         }​
-    }
-@media screen and (max-width: 768px) {
+    };
+    @media screen and (max-width: 768px) {
     position: relative;
     width:100%;
     left: 0;
     flex-direction: column;
-}
+    };
    
 `
 export const AboutContainerImageContent2 = styled.div`
@@ -146,7 +154,7 @@ background-size: cover;
 `
 export const AboutContainerHeading = styled.div`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -163,7 +171,7 @@ color: #ED1C24;
 `
 export const AboutContainerSubHeading = styled.h2`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 56px;
@@ -180,14 +188,14 @@ color: #ffff;
 `
 export const AboutContainerPara = styled.p`
 margin-top: 4px;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
-font-size: 18px;
+font-size: 12px;
 line-height: 21px;
 align-items: stretch;
 text-align: justify;
-width: 100%;
+width: 80%;
 padding: 25px 25px 25px 0px;
 color: #F2F2F2;
 
@@ -206,10 +214,10 @@ export const AboutContainerButton = styled(LinkR)`
 display : block;
   border-radius: 12px;
   background: #93CC00;
-  padding: 20px 32px;
+  padding: 10px 22px;
   white-space: nowrap;
   padding: 10px 22px;
-  font-size: 26px;
+  font-size: 16px;
   color: #fff;
   outline: none;
   border: none;

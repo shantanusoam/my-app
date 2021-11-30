@@ -15,7 +15,7 @@ height: auto;
 export const WCUHeding = styled.h1`
 
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -34,7 +34,7 @@ color: #ED1C24;
 
 export const WCUSubHeding = styled.p`
 margin-top: 24px;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 35px;
@@ -110,7 +110,7 @@ padding: 80px 90px 80px 90px;
 
 export const WCUCHeading = styled.h2`
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -127,7 +127,7 @@ color: #3D3D3D;
 `
 // export const WCUCParagraph = styled.p`
 // margin-top: 4px;
-// font-family: Roboto;
+// font-family: Poppins;
 // font-style: normal;
 // font-weight: normal;
 // font-size: 18px;

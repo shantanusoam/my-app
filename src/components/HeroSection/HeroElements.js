@@ -2,9 +2,9 @@ import Styled from 'styled-components';
 import bgimage from '../../images/Bg.png';
 import {  Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
-background: transparent url(${bgimage}) no-repeat center center;
-overflow: hidden;
 
+overflow: hidden;
+background: #0c0c0c;
 display: flex;  
 flex-direction: column;
 justify-content: flex-end;
@@ -15,10 +15,12 @@ padding: 0;
 width: 100%;
 position: relative;
 height: 100vh;
-background-size: cover;
-background-repeat: no-repeat;
-background-position: top center;
-z-index: 0;
+
+z-index: 1;
+@media screen and (max-width: 768px) {
+    background: transparent url(${bgimage}) no-repeat center center;
+    
+}
 `;
 // export const HeroBg = Styled.div`
 
@@ -81,8 +83,32 @@ height: 100%;
 // // background: #232a34;
 
 // `
+export const HeroBg = Styled.div`
+ 
+position: absolute;
+
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+width: 100%;
+height: 100%;
+
+overflow: hidden;
+
+`
+// export const BgImage = Styled.div`
+// width: 100%;
+// height: 100%;
+// background-image: url(../../images/Bg.png);
+// -o-object-fit: cover;
+// object-fit: cover;
+// // background: #232a34;
+
+// `
 export const VideoBg = Styled.video`
 
+width: 100%;
 
 height: 100%;
 
@@ -90,7 +116,11 @@ height: 100%;
 
 object-fit: cover;
 
-
+background: #232a34;
+@media screen and (max-width: 768px) {
+    display: none;
+    
+}
 `
 export const HeroContent = Styled.div`
 padding: 0px 20px 0px 20px;
@@ -161,7 +191,7 @@ display: none;
 `
 export const HeroH1 = Styled.h1`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -192,7 +222,7 @@ color: #FFFFFF;
 
 @media screen and (max-width: 768px) {
     font-size: 54px;
- 
+    width: 80%;
     text-align: center; 
 }
 /* @media screen and (max-width: 1024px) {
@@ -202,14 +232,14 @@ color: #FFFFFF;
 } */
 @media screen and (max-width: 375px) {
     font-size: 42px;
-    
+    width: 80%;
   
     text-align: center; 
 }
 `
 export const CardHeading = Styled.button`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 25px;
@@ -228,7 +258,7 @@ color: #FFFFFF;
 `
 export const CardPara = Styled.button`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 20px;
@@ -260,6 +290,7 @@ justify-content: center;
 
 flex-direction: row;
 align-items: center;
+padding: 0px 0px 40px 0px;
 @media screen and (max-width: 768px) {
     display: none;
 }
@@ -298,9 +329,10 @@ display: flex;
 z-index: 2;
 flex-direction: column;
 align-items: start;
+padding: 0px 20px 0px 0px;
 `
 export const Callinfo = Styled.p`
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 15px;
@@ -317,7 +349,7 @@ color: #FFFFFF;
 }
 `
 export const Info = Styled.div`
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 15px;

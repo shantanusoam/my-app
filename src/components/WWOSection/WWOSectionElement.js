@@ -21,7 +21,7 @@ height: auto;
 `
 export const WWOHeding = styled.h1`
 z-index: 0;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -39,7 +39,7 @@ color: #ED1C24;
 `
 export const WWOSubHeding = styled.p`
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 35px;
@@ -106,7 +106,7 @@ height: 100%;
 
 export const WWOCCHeading = styled.h2`
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -123,7 +123,7 @@ color: #3D3D3D;
 `
 export const WWOCCParagraph = styled.p`
 margin-top: 4px;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;

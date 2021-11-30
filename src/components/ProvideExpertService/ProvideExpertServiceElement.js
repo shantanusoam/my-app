@@ -43,7 +43,7 @@ padding: 0px 50px 30px 0px;
 export const Heading  = styled.div`
 padding: 5px;
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 16px;
@@ -54,7 +54,7 @@ width: 35rem;
 color: #010101;
 
 @media screen and (max-width: 768px) {
-    font-size: 30px;
+    font-size: 20px;
     width: 100%;
     padding-bottom: 10px;
 }
@@ -65,7 +65,7 @@ color: #010101;
 export const SubHeading  = styled.div`
 padding: 5px;
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 16px;
@@ -75,7 +75,7 @@ width: 35rem;
 color: #232536;
 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 10px;
 }
 @media screen and (max-width: 480px) {
     font-size: 15px;
@@ -108,9 +108,9 @@ z-index: 5;
 @media screen and (max-width: 768px) {
     margin: 5px;
     padding-top: 10px;
-    width:  65PX;
-height: 65PX;
-font-size: 2rem;
+    width:  45PX;
+height: 45PX;
+font-size: 1rem;
 color: #fff;
 }
 `
@@ -156,7 +156,7 @@ justify-content: start;
 export const StepHeading  = styled.div`
 padding: 5px;
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
@@ -178,7 +178,7 @@ color: #010101;
 export const StepSubheading  = styled.div`
 padding: 5px;
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 12px;
@@ -188,12 +188,12 @@ width: 35rem;
 color: #938D8D;
 
 @media screen and (max-width: 768px) {
-    font-size: 40px;
-    width: 80%;
+    font-size: 15px;
+    width: 90%;
     color: #938D8D;
 }
 @media screen and (max-width: 480px) {
-    font-size: 20px;
+    font-size: 15px;
     color: #938D8D;
 }
 `

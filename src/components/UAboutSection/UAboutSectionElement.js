@@ -81,7 +81,7 @@ width: 100%;
 `
 export const SIHeading = styled.h2`
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 36px;
@@ -98,7 +98,7 @@ color: #3D3D3D;
 `
 export const SIPara = styled.p`
 margin-top: 4px;
-font-family: Roboto;
+font-family: Poppins;
 width: 60%;
 font-style: normal;
 font-weight: normal;

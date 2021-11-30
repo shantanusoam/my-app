@@ -15,7 +15,7 @@ height: auto;
 `
 export const TestimonialHeading = styled.h2`
 z-index: 10;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 40px;
@@ -59,7 +59,7 @@ align-items: flex-start
 
 export const TParagraph= styled.p`
 padding: 20px;
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: normal;
 font-size: 18px;
@@ -83,7 +83,7 @@ z-index: 10;
 width: 185px;
 height: 23px;
 
-font-family: Roboto;
+font-family: Poppins;
 font-style: normal;
 font-weight: bold;
 font-size: 15px;
