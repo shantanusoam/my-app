@@ -54,12 +54,12 @@ width: 35rem;
 color: #010101;
 
 @media screen and (max-width: 768px) {
-    font-size: 20px;
+    font-size: 30px;
     width: 100%;
     padding-bottom: 10px;
 }
 @media screen and (max-width: 480px) {
-    
+    font-size: 20px;
 }
 `
 export const SubHeading  = styled.div`
@@ -75,7 +75,7 @@ width: 35rem;
 color: #232536;
 
 @media screen and (max-width: 768px) {
-    font-size: 10px;
+    font-size: 20px;
 }
 @media screen and (max-width: 480px) {
     font-size: 15px;
@@ -166,7 +166,7 @@ width: 35rem;
 color: #010101;
 
 @media screen and (max-width: 768px) {
-    font-size: 70px;
+    font-size: 20px;
     width: 90%;
     color: #1E1B1B;
 }
@@ -174,6 +174,9 @@ color: #010101;
     font-size: 27px;
     color: #1E1B1B;
 }
+@media (min-width:300px) and (max-width:400px) {
+    font-size: 20px;
+}​
 `
 export const StepSubheading  = styled.div`
 padding: 5px;
@@ -188,7 +191,7 @@ width: 35rem;
 color: #938D8D;
 
 @media screen and (max-width: 768px) {
-    font-size: 15px;
+    font-size: 20px;
     width: 90%;
     color: #938D8D;
 }
@@ -196,4 +199,11 @@ color: #938D8D;
     font-size: 15px;
     color: #938D8D;
 }
+@media screen and (max-width: 390px) {
+    font-size: 12px;
+    color: #938D8D;
+}
+@media (min-width:300px) and (max-width:400px) {
+    font-size: 10px;
+}​
 `

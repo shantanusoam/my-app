@@ -9,6 +9,7 @@ display: flex;
 flex-direction: column;
 justify-content: flex-end;
 align-items: center;
+
 margin: 0;
 padding: 0;
 
@@ -145,10 +146,12 @@ div{
     @media screen and (max-width: 768px) {
     display: none;
     
+    
     }
-    @media screen and (min-device-width: 1024px) {
+    @media screen and (min-width: 1024px) {
     display: block;
     align-items: right;
+    
     
     }
     @media screen and (max-width: 480px) {
@@ -166,6 +169,7 @@ div{
         flex-direction: column;
         padding: 0px 0px 0px 0px;
         margin:0px;
+        justify-content: center;
     }
 @media screen and (max-width: 480px) {
     padding: 200px 0px 0px 0px;
@@ -222,7 +226,8 @@ color: #FFFFFF;
 
 @media screen and (max-width: 768px) {
     font-size: 54px;
-    width: 80%;
+    width: 65%;
+    padding: 0px 0px 50px 0px;
     text-align: center; 
 }
 /* @media screen and (max-width: 1024px) {

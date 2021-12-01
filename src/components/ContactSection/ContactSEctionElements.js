@@ -17,11 +17,11 @@ height: 80vh;
 overflow: hidden;
 ;
 
-@media screen and (max-width: 768px) {
-    transition: 0.8s all ease;
-    padding-top: 0px;
-    margin-bottom: 20px;
-  }
+// @media screen and (max-width: 768px) {
+//     transition: 0.8s all ease;
+//     padding-top: 0px;
+//     margin-bottom: 20px;
+//   }
 &:active{
     
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import { CloseIcon,Icon, SlidebarContainer,SidebarWrapper,SidebarMenu,SidebarLink,SideBtnWrap,SidebarRoute } from './SlidebarElement'
+import { CloseIcon,Icon, SlidebarContainer,SidebarWrapper,SidebarMenu,SidebarLink,SidebarLinkR,SideBtnWrap,SidebarRoute } from './SlidebarElement'
 import { animateScroll as scroll,Link } from 'react-scroll';
 const Sidebar = ({isOpen,toggle}) => {
     return (
@@ -9,16 +9,16 @@ const Sidebar = ({isOpen,toggle}) => {
             </Icon>
             <SidebarWrapper>
                 <SidebarMenu>
-                    <SidebarLink  to='/'  >
+                    <SidebarLinkR  to='/'  >
                     <a to='/' onClick={toggle}  
          >Home</a>
-                    </SidebarLink>
-                    <SidebarLink to='/About' >
+                    </SidebarLinkR>
+                    <SidebarLinkR to='/About' >
                     <a  onClick={toggle} to='/About' >About</a>
-                    </SidebarLink>
+                    </SidebarLinkR>
                    
-                    <SidebarLink to='/Product' >
-                    <a href='/Product' onClick={toggle}>Product</a>
+                    <SidebarLink  >
+                    <Link href='Product' onClick={toggle}>Product</Link>
                     </SidebarLink>
                    
                     

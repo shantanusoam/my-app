@@ -63,10 +63,10 @@ const Navbar = ({toggle}) => {
             </NavLinks>
             
             </NavItem>
-          <NavItem>
+            <NavItem>
             
-            <NavLinks  to='/Product' onClick={toggleHome}>
-            <a to='/Product' >Product</a>
+            <NavLinks >
+            <Link to='Products' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Products</Link>
           </NavLinks></NavItem>
           <NavItem>
             

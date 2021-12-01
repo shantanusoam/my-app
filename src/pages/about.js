@@ -18,7 +18,7 @@ const About = () => {
   return (
     <>
     <AboutMain></AboutMain>
-    <AboutMain2></AboutMain2>
+  
     </>
       
     

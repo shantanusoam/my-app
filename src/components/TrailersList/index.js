@@ -23,9 +23,9 @@ class TrailerList extends React.Component {
         const PageComponent = this.props.component
   
       return (
-        <AboutContainer id="About">
+        <AboutContainer id="Products">
          
-         <h3 className="text-center text-black font-bold text-3xl pb-8 md:pb-3">Trailer</h3>
+         <h3 className="text-center text-black font-bold text-3xl pb-8 md:pb-3">Inventory</h3>
          <CardListRow>
              <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
     {Trailers.map(trailer=>

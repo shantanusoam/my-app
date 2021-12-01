@@ -47,7 +47,24 @@ text-align: center;
     grid-template-rows: repeat(4,60px);
 }
 `
-export const SidebarLink = styled(LinkR)`
+export const SidebarLink = styled(LinkS)`
+display : flex;
+align-items: center;
+justify-content: flex-end;
+font-size: 1.5rem;
+text-decoration:none;
+padding-right: 3rem;
+transition: 0.2s ease-in-out;
+text-decoration: none;
+color: #fff;
+cursor: pointer;
+&:hover{
+    color: #93cc00;
+    transition: 0.2s ease-in-out;
+
+}
+`
+export const SidebarLinkR = styled(LinkR)`
 display : flex;
 align-items: center;
 justify-content: flex-end;
