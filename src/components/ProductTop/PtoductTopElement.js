@@ -26,11 +26,8 @@ min-height: auto;
 height:auto;
 `
 export const ContainerCorsole = styled.div`
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-width: 60%;
+
+width: 1000px;
 `
 export const WWOCCParagraph = styled.p`
 
@@ -90,4 +87,5 @@ display: flex;
 justify-content: flex-start;
 flex-direction: row;
 align-items: center;
+
 `

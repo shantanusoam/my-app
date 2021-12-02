@@ -2,10 +2,11 @@ import React, { useState, useEffect, useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import divConatiners from './PtoductTopElement'
 import { Thumb } from "./EmblaCarouselThumb";
-import { mediaByIndex } from "./media";
+
+import {Trailers} from '../../trailer.js'
 import "./embla.css";
 
-const EmblaCarousel = ({ slides }) => {
+const EmblaCarousel = ({ slides,id }) => {
   const [selectedIndex, setSelectedIndex] = useState(0);
   const [mainViewportRef, embla] = useEmblaCarousel({ skipSnaps: false });
   const [thumbViewportRef, emblaThumbs] = useEmblaCarousel({
@@ -13,7 +14,9 @@ const EmblaCarousel = ({ slides }) => {
     selectedClass: "",
     dragFree: true
   });
-
+const data = Trailers[id]
+const media = data.subImages;
+const mediaByIndex = index => media[index % media.length];
   const onThumbClick = useCallback(
     (index) => {
       if (!embla || !emblaThumbs) return;
@@ -46,7 +49,7 @@ const EmblaCarousel = ({ slides }) => {
                   <img
                     className="embla__slide__img"
                     src={mediaByIndex(index)}
-                    alt="A cool cat."
+                    alt="trailer"
                   />
                 </div>
               </div>

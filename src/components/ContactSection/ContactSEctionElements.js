@@ -25,6 +25,11 @@ overflow: hidden;
 &:active{
     
 }
+@media screen and (max-width:3024px) {
+    
+    padding: 0px 0px 0px 0px ;
+  
+}
 `
 
 export const ContactForm = styled.div`
@@ -212,6 +217,11 @@ color: #000;
 
 @media screen and (max-width: 768px) and (max-width:1024px) {
     font-size: 20px;
+  
+}
+@media screen and (max-width:3024px) {
+    font-size: 40px;
+    padding: 0px 0px 90px 170px ;
   
 }
 @media screen and (max-width: 480px) {

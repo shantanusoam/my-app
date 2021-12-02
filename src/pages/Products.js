@@ -1,8 +1,10 @@
 import { render } from '@testing-library/react';
 import React from 'react';
+import ContactSection from '../components/ContactSection';
 
 import ProductBottom from '../components/ProductBottom';
 import ProductTop from '../components/ProductTop';
+import Contact from './contact';
 
 
 
@@ -17,7 +19,7 @@ export default class Products extends React.Component {
   return (
     <>
  <ProductTop id={this.props.location.state.id}></ProductTop>
- <ProductBottom id={this.props.location.state.id}></ProductBottom>
+ <ContactSection></ContactSection>
     </>
       
     

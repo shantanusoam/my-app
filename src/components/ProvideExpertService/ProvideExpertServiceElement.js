@@ -90,6 +90,7 @@ justify-content: start;
 `
 export const StepNoContainer  = styled.div`
 display:flex;
+position: relative;
 flex-direction: column;
 justify-content: space-between;
 align-items : center;
@@ -110,10 +111,28 @@ z-index: 5;
     padding-top: 10px;
     width:  45PX;
 height: 45PX;
+z-index: 5;
 font-size: 1rem;
 color: #fff;
 }
+:hover {
+    animation: pulse 2s ;
+}
+
+@keyframes pulse {
+    0% {
+      background-color: #587804;
+      width:  45PX;
+        height: 45PX;
+    }
+    100% {
+      background-color: #93CC00;
+      width:  45PX;
+        height: 45PX;
+    }
+  }
 `
+
 export const StarightLine  = styled.div`
  border:1px dashed #93CC00;
   color:#fff;

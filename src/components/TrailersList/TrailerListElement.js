@@ -15,6 +15,7 @@ align-items: flex-start;
  margin: 0px;
 }
 `
+
 export const NavLink = styled(LinkR)`
   color: #000;
   display: flex;
@@ -36,6 +37,9 @@ export const NavLink = styled(LinkR)`
   @media screen and (max-width: 768px) {
   dispaly: none;
 }
+`;
+export const LinkRo = styled(LinkR)`
+ 
 `;
 export const AboutContainer = styled.div`
  background: #fff;

@@ -1,13 +1,12 @@
 import React from 'react'
-import {AboutContainer,CardListRow,NavLink} from './TrailerListElement'
+import {AboutContainer,CardListRow,NavLink,LinkRo} from './TrailerListElement'
 import Roll from 'react-reveal/Roll';
 import Fade from 'react-reveal/Fade';
-import tr1 from '../../images/trailer1.png';
-import tr2 from '../../images/trailer2.png';
-import tr3 from '../../images/trailer3.png';
+import EmblaCarousel from "./EmblaCarousel";
 import { animateScroll as scroll,Link } from 'react-scroll';
 import {Trailers} from '../../trailer.js'
-
+const SLIDE_COUNT = 3;
+const slides = Array.from(Array(SLIDE_COUNT).keys());
 class TrailerList extends React.Component {
   constructor(){
       super();
@@ -29,15 +28,20 @@ class TrailerList extends React.Component {
          <CardListRow>
              <div className="xl:px-14 xl:py-10 md:py-0 md:px-0 bg-white flex flex-row flex-wrap justify-center items-center space-y-5 ">
     {Trailers.map(trailer=>
-   
+   <LinkRo key={trailer.id} to={{
+    pathname: "/Product",
+    state: {id:trailer.id} // your data array of objects
+  }} className=" flex-1 " key={trailer.id} id={trailer.id}>
     <Fade bottom key={trailer.id} >
+      
     <div className="bg-white rounded-xl  m-9 hover:shadow-2xl flex-1 " key={trailer.id} id={trailer.id}>
-                 <img src={trailer.img} alt="Trailers images" className="rounded-t-xl h-80 w-full object-cover"/>
+      <EmblaCarousel slides={slides} id={trailer.id}/>
+                 {/* <img src={trailer.img} alt="Trailers images" className="rounded-t-xl h-80 w-full object-cover"/> */}
    
             <div className="p-8">
                 <h3 className="font-bold text-2xl mb-5">{trailer.title}</h3>
                 <br />
-                <h3 className=" text-1xl mb-5 ">{trailer.Description  }</h3>
+                <h3 className=" text-1xl mb-5 ">{trailer.Description}</h3>
             <NavLink key={trailer.id} to={{
     pathname: "/Product",
     state: {id:trailer.id} // your data array of objects
@@ -46,8 +50,10 @@ class TrailerList extends React.Component {
     </div>
       
      
-   </div>
+    </div>
+   
     </Fade>
+    </LinkRo>
     )
     }
     

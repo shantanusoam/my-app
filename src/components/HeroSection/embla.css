@@ -1,15 +1,15 @@
 .embla {
   position: relative;
-  background-color: #f7f7f7;
+ 
 height: auto;
-  max-width: 100%;
+  max-width: auto;
   margin-left: auto;
   margin-right: auto;
 }
 
 .embla__viewport {
   overflow: hidden;
-  width: 100%;
+  width: auto;
 }
 
 .embla__viewport.is-draggable {
@@ -33,7 +33,7 @@ height: auto;
 .embla__slide {
   position:absolute;
   min-width: 100%;
-  padding-left: 10px;
+  padding-left: 0px;
 }
 
 .embla__slide__inner {

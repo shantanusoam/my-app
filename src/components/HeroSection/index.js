@@ -273,7 +273,7 @@ const HeroSection = () => {
        </HeroP>
       
                <PCENTER class="text-gray-600 p-8">
-               One-stop-shop for all your trucking needs. We are an authorized dealer for Vanguard trailers servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well. {" "}
+               15083 Valley Blvd, Fontana, CA 92335 for all your trucking needs. We are an authorized dealer for Vanguard trailers servicing in British Columbia, Canada. We are an established retailer of pre-owned trucks and trailers as well. {" "}
                </PCENTER>
               
                <WWOCCButtonM className="p-8">

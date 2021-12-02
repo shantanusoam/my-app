@@ -5,7 +5,16 @@ import styled from 'styled-components';
 
 export const TextContaner = styled.div`
 display: flex;
-padding: 200px 0px 20px 0px;
+padding: 150px 0px 20px 0px;
+flex-direction: column;
+justify-content: center;
+width: 60%;
+align-items: center;
+
+`
+export const TextContanerS = styled.div`
+display: flex;
+padding: 90px 0px 20px 0px;
 flex-direction: column;
 justify-content: flex-start;
 width: 60%;
