@@ -5,16 +5,17 @@ import Autoplay from "embla-carousel-autoplay";
 import {Trailers} from '../../trailer.js'
 import "./embla.css";
 
-const EmblaCarousel = ({ slides, options = { loop: false } ,id}) => {
-  const autoplay = useRef(
-    Autoplay(
-      { delay: 3000, stopOnInteraction: false },
-      (emblaRoot) => emblaRoot.parentElement
-    )
-  );
+const EmblaCarousel = ({ slides, options = { loop: true } ,id}) => {
   const data = Trailers[id]
   const media = data.subImages;
   const mediaByIndex = index => media[index % media.length];
+  const autoplay = useRef(
+    Autoplay(
+      { delay: 900, stopOnInteraction: false },
+      (emblaRoot) => emblaRoot.parentElement
+    )
+  );
+
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [autoplay.current]);
   const [prevBtnEnabled, setPrevBtnEnabled] = useState(false);
   const [nextBtnEnabled, setNextBtnEnabled] = useState(false);
@@ -43,6 +44,7 @@ const EmblaCarousel = ({ slides, options = { loop: false } ,id}) => {
     emblaApi.on("select", onSelect);
   }, [emblaApi, onSelect]);
 
+
   return (
     <div className="embla ">
       <div className="embla__viewport" ref={emblaRef}>
@@ -51,17 +53,16 @@ const EmblaCarousel = ({ slides, options = { loop: false } ,id}) => {
             <div className="embla__slide" key={index}>
               <div className="embla__slide__inner">
                 <img
-                  className="embla__slide__img"
+                  className="rounded-t-xl object-cover h-96 w-full"
                   src={mediaByIndex(index)}
-                  alt="A cool cat."
+                  alt="Trailers"
                 />
               </div>
             </div>
           ))}
         </div>
       </div>
-      <PrevButton onClick={scrollPrev} enabled={prevBtnEnabled} />
-      <NextButton onClick={scrollNext} enabled={nextBtnEnabled} />
+      
     </div>
   );
 };

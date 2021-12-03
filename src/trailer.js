@@ -22,7 +22,7 @@ export const Trailers = [
       animation: 'bottom',
       img:tr2,
       subImages: [Rt1, Rt2, Rt3],
-      title:"REFRIGERATED TRAILERS",
+      title:"THERMO KING TRAILERS",
       date:"See more",
       Description:"Our refrigerated trailers have an insulated cargo body equipped with a refrigeration unit in order to control cargo temperature. Kal Trailers keeps ready-to-go refrigerated trailers in its inventory at all times."
     },

@@ -47,7 +47,7 @@ const mediaByIndex = index => media[index % media.length];
               <div className="embla__slide" key={index}>
                 <div className="embla__slide__inner">
                   <img
-                    className="embla__slide__img"
+                    className=" object-cover h-auto w-full"
                     src={mediaByIndex(index)}
                     alt="trailer"
                   />
