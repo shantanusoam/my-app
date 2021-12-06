@@ -40,7 +40,7 @@ class ProductTop extends React.Component{
         <TextContaner>
         <h3 className="text-left text-black font-bold pt-8 text-3xl pb-8">{this.state.data.title}</h3>
         <p className="text-left text-gray-800 pt-8 pb-8 w-60">{this.state.data.Description}</p>
-        <CButton className="pt-20"><WWOCCButton><Link to='/#'  smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact Us</Link></WWOCCButton><WWOCCParagraph>or see our portfolio</WWOCCParagraph></CButton>
+        {/* <CButton className="pt-20"><WWOCCButton><Link to='/#'  smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact Us</Link></WWOCCButton><WWOCCParagraph>or see our portfolio</WWOCCParagraph></CButton> */}
         </TextContaner>
         
       </AboutContainer>

@@ -25,8 +25,10 @@ const Sidebar = ({isOpen,toggle}) => {
                     
                 </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to='/Contact'><Link to='/Contact' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact</Link></SidebarRoute>
+                <SidebarRoute to='/Contact'><addEventListener to='/Contact' smooth={true} duration={500} spy={true} exact={true} offset={-80}>Contact</addEventListener></SidebarRoute>
             </SideBtnWrap>
+            
+        
             </SidebarWrapper>
         </SlidebarContainer>
     )

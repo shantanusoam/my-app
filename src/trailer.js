@@ -1,6 +1,6 @@
-import tr1 from './images/trailer1.png';
-import tr2 from './images/trailer2.png';
-import tr3 from './images/trailer3.png';
+import tr1 from './images/dv.jpg';
+import tr2 from './images/dv0.jpg';
+import tr3 from './images/dv1.jpg';
 import Rt1 from './images/Rt1.jpeg';
 import Rt2 from './images/Rt2.jpeg';
 import Rt3 from './images/Rt3.jpeg';
@@ -22,7 +22,7 @@ export const Trailers = [
       animation: 'bottom',
       img:tr2,
       subImages: [Rt1, Rt2, Rt3],
-      title:"THERMO KING TRAILERS",
+      title:"THERMOKING ",
       date:"See more",
       Description:"Our refrigerated trailers have an insulated cargo body equipped with a refrigeration unit in order to control cargo temperature. Kal Trailers keeps ready-to-go refrigerated trailers in its inventory at all times."
     },

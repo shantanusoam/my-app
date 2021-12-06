@@ -10,7 +10,9 @@ flex-direction: column;
 justify-content: flex-start;
 
 align-items: flex-start;
-
+@media screen and (max-width: 768px) {
+  padding: 10px 10px 10px 10px;
+}
 `
 export const AboutContainer = styled.div`
  background: #fff;
@@ -24,6 +26,9 @@ padding: 210px 0px 30px 0px;
 justify-content: center;
 min-height: auto;
 height:auto;
+@media screen and (max-width: 768px) {
+  padding: 10px 10px 10px 10px;
+}
 `
 export const ContainerCorsole = styled.div`
 

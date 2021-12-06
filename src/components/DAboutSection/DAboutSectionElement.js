@@ -67,6 +67,7 @@ justify-content: center;
 flex-grow:1;
 @media screen and (max-width: 768px) {
     width:100%;
+    padding: 50px 50px 50px 25px;
     flex-direction: column;
 }
 @media screen and (max-width: 1920px) {
@@ -181,7 +182,8 @@ color: #ffff;
 
 @media screen and (max-width: 768px) {
     line-height: 60px;
-    font-size: 68px;
+   margin-bottom: 10px;
+    font-size: 50px;
     width: 20%;
 }
 
@@ -195,7 +197,7 @@ font-size: 12px;
 line-height: 21px;
 align-items: stretch;
 text-align: justify;
-width: 80%;
+width: 90%;
 padding: 25px 25px 25px 0px;
 color: #F2F2F2;
 
@@ -203,9 +205,9 @@ color: #F2F2F2;
 max-width: 60rem;
 @media screen and (max-width: 768px) {
     font-size: 19px;
-
+    padding:  0px;
     line-height: 30px;
-    width: 80%;
+    width: 90%;
 }
 
 
@@ -228,6 +230,7 @@ display : block;
 
   /* Second Nav */
   @media screen and (max-width: 768px) {
+    margin-top: 20px;
     display : block;
 }
 

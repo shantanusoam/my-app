@@ -16,7 +16,7 @@ const DAboutSection = ({isOpen,toggle}) => {
               {/* <AboutContainerHeading>KAL TIRES</AboutContainerHeading> */}
               <AboutContainerSubHeading>Our services</AboutContainerSubHeading>
               <AboutContainerPara>Big Rig Canada is a large and continually-growing trucking company that starts in California as Kal Freight Inc, with over 700 trucks and 2,000 trailers and has over 800 employees. As a dynamic modern transportation company with a strategic corporate location based in Ontario, California, Kal Freight extended its reach to Canada opening a new location in Abbotsford, as Big Rig Canada.</AboutContainerPara>
-              <AboutContainerButton>See more</AboutContainerButton>
+              <AboutContainerButton to='/About'><a to='/About'>See more</a></AboutContainerButton>
             </AboutContainerTextContent>
             
             

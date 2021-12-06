@@ -172,7 +172,7 @@ div{
         justify-content: center;
     }
 @media screen and (max-width: 480px) {
-    padding: 200px 0px 0px 0px;
+    padding: 100px 0px 0px 0px;
     
     flex-direction: column;
     font-size: 32px;

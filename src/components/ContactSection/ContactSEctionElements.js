@@ -225,11 +225,12 @@ color: #000;
   
 }
 @media screen and (max-width: 480px) {
-    font-size: 26px;
+    font-size: 36px;
     text-align: center;
     width: 100%;
     padding: 0px;
     margin: 0px;
+   
 }`
 export const FotterHName = styled.div`
 padding: 20px 0px 20px 80px ;
@@ -336,6 +337,6 @@ display: block;
     color: #010606;
   }
   @media screen and (max-width: 768px) {
-    display: none;
+    display: block;
 }
 `;
