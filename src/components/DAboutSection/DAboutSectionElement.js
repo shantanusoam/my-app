@@ -1,47 +1,42 @@
 import { FaBars } from 'react-icons/fa';
-import {  Link as LinkR } from 'react-router-dom';
-import {Link as LinkS} from 'react-scroll';
+import { Link as LinkR } from 'react-router-dom';
+import { Link as LinkS } from 'react-scroll';
 import styled from 'styled-components';
 
 export const AboutContainer = styled.div`
- background: #fff;
-display:flex;
-flex-direction: row;
-position: relative;   
-align-items: center;
-justify-content: space-around;
-width: auto;
-min-height: 70vh;
-position: relative;
-overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: space-around;
+  width: auto;
+  min-height: 70vh;
+  position: relative;
+  overflow: hidden;
 
-@media screen and (max-width: 2068px) {
-  flex-direction: column-reverse;
-   
-   
-}
-`
+  @media screen and (max-width: 2068px) {
+    flex-direction: column-reverse;
+  }
+`;
 export const AboutContainerContent = styled.div`
-background: #277DBD;
+  background: #277dbd;
 
-
-display: flex ;
-flex-wrap: nowrap;
-flex-direction: row;
-justify-content: flex-end;
-width: 70%;
-@media screen and (max-width: 768px) {
-    width:100%;
-    height:100%;
-}
-`
-
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 70%;
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 100%;
+  }
+`;
 
 export const SpaceTruck = styled.div`
-display: flex;
-width: 300px;
-
-`
+  display: flex;
+  width: 300px;
+`;
 export const SpaceContainer = styled.div`
 flex-grow: 1;
 @media screen and (max-width: 768px) {
@@ -56,38 +51,35 @@ flex-grow: 1;
     
   display: none;
         }​;
-`
+`;
 export const AboutContainerTextContent = styled.div`
-display: flex;
-padding: 0px 0px 15px 5px;
-width:30%;
-flex-direction: column;
-align-items: flex-start;
-justify-content: center; 
-flex-grow:1;
-@media screen and (max-width: 768px) {
-    width:100%;
+  display: flex;
+  padding: 0px 0px 15px 5px;
+  width: 30%;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  flex-grow: 1;
+  @media screen and (max-width: 768px) {
+    width: 100%;
     padding: 50px 50px 50px 25px;
     flex-direction: column;
-}
-@media screen and (max-width: 1920px) {
-    width:30%;
-}
-
-
-`
+  }
+  @media screen and (max-width: 1920px) {
+    width: 30%;
+  }
+`;
 export const AboutTireHolder = styled.div`
-display: flex;
-flex-direction: row;
-align-items: center;
-
-`
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+`;
 export const ATHSectionInfo = styled.div`
-display:flex;
-flex-direction: column;
+  display: flex;
+  flex-direction: column;
 
-align-items: flex-start
-`
+  align-items: flex-start;
+`;
 export const AboutContainerImageContent = styled.div`
 
 position: absolute;
@@ -126,96 +118,83 @@ background-size: cover;
     flex-direction: column;
     };
    
-`
+`;
 export const AboutContainerImageContent2 = styled.div`
+  position: absolute;
 
-position: absolute;
+  display: block;
 
-display: block;
+  width: 60%;
 
-
-
-
-width: 60%;
-
-/* padding-right: 200px;
+  /* padding-right: 200px;
 position: absolute;
 margin-left: 50%;
 margin-top: -8%; */
-background-size: cover;
-    height: 18rem;
-    background-blend-mode: screen;
-    margin-bottom: 20px;
-    border-top-left-radius: 3px;
-    border-top-right-radius: 3px; 
-    @media screen and (max-width: 768px) {
+  background-size: cover;
+  height: 18rem;
+  background-blend-mode: screen;
+  margin-bottom: 20px;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  @media screen and (max-width: 768px) {
     display: none;
-}
-  
-`
+  }
+`;
 export const AboutContainerHeading = styled.div`
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 16px;
+  color: #ed1c24;
 
-
-color: #ED1C24;
-
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     font-size: 20px;
-}
-@media screen and (max-width: 480px) {
+  }
+  @media screen and (max-width: 480px) {
     font-size: 15px;
-}
-`
+  }
+`;
 export const AboutContainerSubHeading = styled.h2`
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 56px;
 
-font-family: Poppins;
-font-style: normal;
-font-weight: bold;
-font-size: 56px;
+  color: #ffff;
 
-
-color: #ffff;
-
-@media screen and (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     line-height: 60px;
-   margin-bottom: 10px;
+    margin-bottom: 10px;
     font-size: 50px;
     width: 20%;
-}
-
-`
+  }
+`;
 export const AboutContainerPara = styled.p`
-margin-top: 4px;
-font-family: Poppins;
-font-style: normal;
-font-weight: normal;
-font-size: 12px;
-line-height: 21px;
-align-items: stretch;
-text-align: justify;
-width: 90%;
-padding: 25px 25px 25px 0px;
-color: #F2F2F2;
+  margin-top: 4px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 21px;
+  align-items: stretch;
+  text-align: justify;
+  width: 90%;
+  padding: 25px 25px 25px 0px;
+  color: #f2f2f2;
 
-
-max-width: 60rem;
-@media screen and (max-width: 768px) {
+  max-width: 60rem;
+  @media screen and (max-width: 768px) {
     font-size: 19px;
-    padding:  0px;
+    padding: 0px;
     line-height: 30px;
     width: 90%;
-}
-
-
-`
+  }
+`;
 export const AboutContainerButton = styled(LinkR)`
-display : block;
+  display: block;
   border-radius: 12px;
-  background: #93CC00;
+  background: #101010;
   padding: 10px 22px;
   white-space: nowrap;
   padding: 10px 22px;
@@ -223,7 +202,7 @@ display : block;
   color: #fff;
   outline: none;
   border: none;
-  
+
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
@@ -231,8 +210,8 @@ display : block;
   /* Second Nav */
   @media screen and (max-width: 768px) {
     margin-top: 20px;
-    display : block;
-}
+    display: block;
+  }
 
   &:hover {
     transition: all 0.2s ease-in-out;

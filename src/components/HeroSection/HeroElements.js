@@ -1,6 +1,6 @@
 import Styled from 'styled-components';
 import bgimage from '../../images/Bg.png';
-import {  Link as LinkR } from 'react-router-dom';
+import { Link as LinkR } from 'react-router-dom';
 export const HeroContainer = Styled.div`
 
 overflow: hidden;
@@ -33,7 +33,7 @@ z-index: 1;
 // right: 0;
 // overflow: hidden;
 // width: 100vw;
-// height: 100vh;    
+// height: 100vh;
 // `
 export const WWOCardContainer = Styled.div`
 display: flex;
@@ -41,7 +41,7 @@ flex-wrap: wrap;
 align-items: flex-start;
 justify-content: center;
 padding-bottom: 90px;
-`
+`;
 
 export const WWOCArd = Styled.div`
   flex: 0 0 200px;
@@ -60,7 +60,7 @@ transition: 0.3s all ease;
    
     box-shadow: 2px 5px 6px 0px  rgba(0,0,6,0.2);
 }
-`
+`;
 
 export const WWOCardContent = Styled.div`
 display: flex;
@@ -68,12 +68,12 @@ flex-direction: column;
 align-items: center;
 padding: 200px;
 
-`
+`;
 export const WWOCardimage = Styled.div`
 display: flex;
 
 height: 100%;
-`
+`;
 
 // export const BgImage = Styled.div`
 // width: 100%;
@@ -97,7 +97,7 @@ height: 100%;
 
 overflow: hidden;
 
-`
+`;
 // export const BgImage = Styled.div`
 // width: 100%;
 // height: 100%;
@@ -122,7 +122,7 @@ background: #232a34;
     display: none;
     
 }
-`
+`;
 export const HeroContent = Styled.div`
 padding: 0px 20px 0px 20px;
 z-index: 2;
@@ -180,7 +180,7 @@ div{
     justify-content: center;
     margin:0px;
 }
-`
+`;
 export const PCENTER = Styled.p`
 display: none;
     @media screen and (max-width: 768px) {
@@ -192,7 +192,7 @@ display: none;
     margin: 0px;
     padding: 0px;
     }
-`
+`;
 export const HeroH1 = Styled.h1`
 
 font-family: Poppins;
@@ -210,7 +210,7 @@ color: #ED1C24;
 @media screen and (max-width: 480px) {
     font-size: 32px;
 }
-`
+`;
 export const HeroP = Styled.p`
 margin-top: 24px;
 font-family: poppins;
@@ -241,7 +241,7 @@ color: #FFFFFF;
   
     text-align: center; 
 }
-`
+`;
 export const CardHeading = Styled.button`
 
 font-family: Poppins;
@@ -260,7 +260,7 @@ color: #FFFFFF;
 @media screen and (max-width: 480px) {
     font-size: 22px;
 }
-`
+`;
 export const CardPara = Styled.button`
 
 font-family: Poppins;
@@ -279,14 +279,14 @@ color: #FFFFFF;
     font-size: 22px;
 }
 
-`
+`;
 export const HeroBtnWrapper = Styled.div`
 margin-top: 32px;
 display: flex;
 z-index: 2;
 flex-direction: column;
 align-items: center;
-`
+`;
 export const HeroPromoContainer = Styled.div`
 z-index: 10;
 display: flex;
@@ -299,7 +299,7 @@ padding: 0px 0px 40px 0px;
 @media screen and (max-width: 768px) {
     display: none;
 }
-`
+`;
 export const HeroPromo = Styled.div`
 margin-top: 32px;
 display: flex;
@@ -308,7 +308,7 @@ z-index: 2;
 flex-direction: row;
 align-items: flex-end
 
-`
+`;
 export const SocialMediaActions = Styled.div`
 display: flex;
 
@@ -320,7 +320,7 @@ top: 0;
 
 font-size: 3rem ; 
 cursor: pointer;
-color: #94CD01;
+color: #e0efff;
 &.active{
     color: #2F7DBD;
   }
@@ -335,7 +335,7 @@ z-index: 2;
 flex-direction: column;
 align-items: start;
 padding: 0px 20px 0px 0px;
-`
+`;
 export const Callinfo = Styled.p`
 font-family: Poppins;
 font-style: normal;
@@ -352,7 +352,7 @@ color: #FFFFFF;
 @media screen and (max-width: 480px) {
     font-size: 22px;
 }
-`
+`;
 export const Info = Styled.div`
 font-family: Poppins;
 font-style: normal;
@@ -369,21 +369,21 @@ color: #FFFFFF;
 @media screen and (max-width: 480px) {
     font-size: 22px;
 }
-`
+`;
 export const WWOCCButtonM = Styled(LinkR)`
 display: none;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #93CC00;
-    color: #010606;
+    background: #1773bb;
+    color: #fff;
   }
   @media screen and (max-width: 768px) {
    padding: 25px;
 display: block;
   display: flex;
     justify-content: center;
-  background: #93CC00;
+  background: #101010;
   padding: 10px 22px;
   white-space: nowrap;
   padding: 20px 92px;
@@ -399,13 +399,13 @@ display: block;
   /* Second Nav */
   margin-top: 44px;
 }
-`
+`;
 export const WWOCCButton = Styled(LinkR)`
 padding: 25px;
 display: block;
   display: flex;
     justify-content: center;
-  background: #93CC00;
+  background: #101010;
   padding: 10px 22px;
   white-space: nowrap;
   padding: 20px 92px;
@@ -423,8 +423,8 @@ display: block;
 
   &:hover {
     transition: all 0.2s ease-in-out;
-    background: #93CC00;
-    color: #010606;
+    background: #1773bb;
+    color: #fff;
   }
   @media screen and (max-width: 768px) {
     display: none;
